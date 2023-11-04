@@ -37,7 +37,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <img className="image-362" src="image-362.png" />
+      <img className="image-362" src="/images/general_practical_services.png" alt="general practical services" />
       <div className="button">
         <div className="text">View all GP services </div>
         <svg
@@ -69,7 +69,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <img className="image-40" src="image-40.png" />
+      <img className="image-40" src="images/dental_services.png" alt="dental services" />
       <div className="button2">
         <div className="text">View all dental services </div>
         <svg
@@ -127,7 +127,7 @@ export default function Home() {
         </svg>
       </div>
     </div>
-    <img className="image-360" src="image-360.png" />
+    <img className="image-360" src="images/image-360.png" alt="image-360" />
   </div>
   <div className="footer-desktop">
     <div className="rectangle-55"></div>
@@ -441,7 +441,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <img className="image-358" src="image-358.png" />
+        <img className="image-358" src="images/image-358.png" />
       </div>
     </div>
   </div>
@@ -449,12 +449,10 @@ export default function Home() {
     <div className="navbar-desktop">
       <div className="main-nav">
         <div className="logo-nav-item">
-          <Image
+          <img
             className="stamford-medical-logo-1"
-            src="/images/logo.png"
+            src="images/logo.png"
             alt='Logo'
-            width= {103}
-      height= {73}
           />
           <div className="nav-item">
             <div className="navbar-item">
