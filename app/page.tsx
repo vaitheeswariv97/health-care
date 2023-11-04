@@ -1,20 +1,7 @@
 import Image from 'next/image'
-import { client } from './utils/configSanity';
-interface IhealthCare{
-  title:string;
-  content:string;
-}
-async function getdata() {
-  const query=`*[_type=='health-care']`;
-const data=await client.fetch(query);
-//console.log(data);
-return data as IhealthCare[]; 
-}
 
-export default async function Home() {
-  const data=(await getdata()) as IhealthCare[];
-  return(
-  <div className="homepage-desktop">
+export default function Home() {
+  return(<div className="homepage-desktop">
   <div className="services">
     <svg
       className="group-366"
@@ -41,10 +28,11 @@ export default async function Home() {
         <div className="group-26">
           <div className="frame-4726">
             <div className="general-practice-services">
-              {data[1]?.title}{" "}
+              General Practice Services{" "}
             </div>
             <div className="explore-our-range-of-gp-services-such-as-gp-statutory-check-ups-and-vaccinations">
-              {data[1]?.content}{" "}
+              Explore our range of GP services such as GP, statutory
+              check-ups and vaccinations{" "}
             </div>
           </div>
         </div>
@@ -72,9 +60,11 @@ export default async function Home() {
       <div className="frame-47702">
         <div className="group-262">
           <div className="frame-47262">
-            <div className="dental-services">{data[0].title} </div>
+            <div className="dental-services">Dental Services </div>
             <div className="explore-our-range-of-dental-services-such-as-routine-dental-check-up-tooth-extraction-dental-fillings-scaling-and-polishing">
-              {data[0].content}{" "}
+              Explore our range of dental services such as routine dental
+              check-up, tooth extraction, dental fillings, scaling and
+              polishing{" "}
             </div>
           </div>
         </div>
@@ -459,9 +449,12 @@ export default async function Home() {
     <div className="navbar-desktop">
       <div className="main-nav">
         <div className="logo-nav-item">
-          <img
+          <Image
             className="stamford-medical-logo-1"
-            src="stamford-medical-logo-1.png"
+            src="/images/logo.png"
+            alt='Logo'
+            width= {103}
+      height= {73}
           />
           <div className="nav-item">
             <div className="navbar-item">
