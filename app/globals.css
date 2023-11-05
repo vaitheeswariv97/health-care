@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (min-width:320px)  { .homepage-mobile-minified-bar,
+@media (max-width:961px)  { .homepage-mobile-minified-bar,
     .homepage-mobile-minified-bar * {
       box-sizing: border-box;
     }
@@ -1334,9 +1334,7 @@
       position: relative;
     }
      }
-@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
-@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
-@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+
 @media (min-width:1025px) { .homepage-desktop,
     .homepage-desktop * {
       box-sizing: border-box;

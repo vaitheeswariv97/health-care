@@ -1,6 +1,20 @@
 import Image from 'next/image'
+import { client} from './utils/configSanity';
 
-export default function Home() {
+
+interface IhealthCare{
+  title:string;
+  content:string;
+}
+async function getdata() {
+  const query=`*[_type=='health-care']`;
+const data=await client.fetch(query);
+//console.log(data);
+return data as IhealthCare[]; 
+}
+
+export default async function Home() {
+  const data=(await getdata()) as IhealthCare[];
   return(<div className="homepage-desktop">
   <div className="services">
     <svg
@@ -28,11 +42,10 @@ export default function Home() {
         <div className="group-26">
           <div className="frame-4726">
             <div className="general-practice-services">
-              General Practice Services{" "}
+            {data[1]?.title}{" "}{" "}
             </div>
             <div className="explore-our-range-of-gp-services-such-as-gp-statutory-check-ups-and-vaccinations">
-              Explore our range of GP services such as GP, statutory
-              check-ups and vaccinations{" "}
+            {data[1]?.content}{" "}{" "}
             </div>
           </div>
         </div>
@@ -60,11 +73,9 @@ export default function Home() {
       <div className="frame-47702">
         <div className="group-262">
           <div className="frame-47262">
-            <div className="dental-services">Dental Services </div>
+            <div className="dental-services">{data[0]?.title}{" "} </div>
             <div className="explore-our-range-of-dental-services-such-as-routine-dental-check-up-tooth-extraction-dental-fillings-scaling-and-polishing">
-              Explore our range of dental services such as routine dental
-              check-up, tooth extraction, dental fillings, scaling and
-              polishing{" "}
+            {data[0]?.content}{" "}{" "}
             </div>
           </div>
         </div>
