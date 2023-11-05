@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { client} from './utils/configSanity';
+import Link from 'next/link';
 
 
 interface IhealthCare{
@@ -36,7 +37,7 @@ export default async function Home() {
       <div className="label">CLINICAL SERVICES </div>
       <div className="title">Discover our services </div>
     </div>
-    <div className="quote">
+    <div className="quote" id='gp_services'>
       <div className="card"></div>
       <div className="frame-4770">
         <div className="group-26">
@@ -68,7 +69,7 @@ export default async function Home() {
         </svg>
       </div>
     </div>
-    <div className="quote2">
+    <div className="quote2" id='dt_services'>
       <div className="card"></div>
       <div className="frame-47702">
         <div className="group-262">
@@ -467,10 +468,10 @@ export default async function Home() {
           />
           <div className="nav-item">
             <div className="navbar-item">
-              <div className="navbar-item2">GP Services </div>
+            <div className="navbar-item2"><Link className='btn' href="#gp_services">GP Services </Link></div>
             </div>
             <div className="navbar-item3">
-              <div className="navbar-item2">Dental Services </div>
+            <div className="navbar-item2"><Link className='btn' href="#dt_services">Dental Services </Link></div>
             </div>
             <div className="navbar-item4">
               <div className="navbar-item2">Contact Us </div>
@@ -478,7 +479,7 @@ export default async function Home() {
             <div className="navbar-item5">
               <div className="navbar-item2">About Us </div>
             </div>
-            <div className="group-4844">
+            {/* <div className="group-4844"> */}
               <div className="button6">
                 <div className="group-128">
                   <svg
@@ -514,8 +515,8 @@ export default async function Home() {
                   />
                 </svg>
               </div>
-            </div>
-            <div className="group-363"></div>
+            {/* </div> */}
+            {/* <div className="group-363"></div> */}
           </div>
         </div>
       </div>
