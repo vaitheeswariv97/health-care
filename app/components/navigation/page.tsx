@@ -1,7 +1,9 @@
 "use client";
 import { useState } from "react";
-import Navbar from "./navbar/page";
-import Sidebar from "./sidebar/page";
+// import Navbar from "./navbar/page";
+// import Sidebar from "./sidebar/page";
+import { Sidebar1 } from "./sidebar/sidebar";
+import { Navbar1 } from "./navbar/navbar";
 import Button from "./navbar/Button";
 import image from "./image.svg"
 
@@ -13,8 +15,8 @@ const Navigation = () => {
     };
     return (
       <>
-        <Sidebar isOpen={isOpen} toggle={toggle} />
-        <Navbar toggle={toggle} />
+        <Sidebar1 isOpen={isOpen} toggle={toggle} />
+        <Navbar1 toggle={toggle} />
           
       </>
     );

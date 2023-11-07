@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { client} from './utils/configSanity';
 import Link from 'next/link';
+import Navigation from './components/navigation/page';
 
 
 interface IhealthCare{
@@ -14,13 +15,19 @@ const data=await client.fetch(query);
 return data as IhealthCare[]; 
 }
 
-export default async function Home() {
+export default async function Home(){
   const data=(await getdata()) as IhealthCare[];
-  return(<div className="homepage-desktop">
+  // const [showMe, setShowMe] = useState(false);
+  // console.log(showMe);
+  // function toggle(){
+  //   setShowMe(!showMe);
+  // }
+  return(
+  <div className="homepage">
   <div className="services">
     <svg
       className="group-366"
-      width="1171"
+      width="100%"
       height="1030"
       viewBox="0 0 1171 1030"
       fill="none"
@@ -116,10 +123,10 @@ export default async function Home() {
         fill="#004320"
       />
     </svg>
-
-    <div className="frame-4716">
+    <div className="frame-4743">
+    
       <div className="removing-barriers-to-access-greater-healthcare-for-all">
-        Removing barriers to access, <br />
+        Removing Barriers to access, <br />
         greater healthcare for all{" "}
       </div>
       <div className="button3">
@@ -138,8 +145,9 @@ export default async function Home() {
           />
         </svg>
       </div>
-    </div>
+      </div>
     <img className="image-360" src="images/image-360.png" alt="image-360" />
+    
   </div>
   <div className="footer-desktop">
     <div className="rectangle-55"></div>
@@ -245,6 +253,173 @@ export default async function Home() {
       </div>
     </div>
   </div>
+  <div className="footer-mobile">
+  <div className="background5"></div>
+  <div className="footer">
+      <div className="navigation">
+        <div className="clinical-services">
+          <div className="frame-4764">
+            <div className="gp-services">GP Services </div>
+            <svg
+              className="angle-right"
+              width="24"
+              height="25"
+              viewBox="0 0 24 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15.9191 12.9474C16.1841 12.6842 16.1841 12.3158 15.9721 12.0526L9.72025 5.94737C9.45534 5.68421 9.03148 5.68421 8.81956 5.94737L8.44868 6.31579C8.18377 6.57895 8.18377 6.94737 8.44868 7.21053L13.8528 12.4737L8.44868 17.7895C8.18377 18.0526 8.18377 18.4211 8.44868 18.6842L8.81956 19.0526C9.03148 19.3158 9.45534 19.3158 9.72025 19.0526L15.9191 12.9474Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+        </div>
+        <div className="health-screening">
+          <div className="dental-services2">Dental Services </div>
+          <svg
+            className="angle-right2"
+            width="24"
+            height="25"
+            viewBox="0 0 24 25"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.9191 12.9474C16.1841 12.6842 16.1841 12.3158 15.9721 12.0526L9.72025 5.94737C9.45534 5.68421 9.03148 5.68421 8.81956 5.94737L8.44868 6.31579C8.18377 6.57895 8.18377 6.94737 8.44868 7.21053L13.8528 12.4737L8.44868 17.7895C8.18377 18.0526 8.18377 18.4211 8.44868 18.6842L8.81956 19.0526C9.03148 19.3158 9.45534 19.3158 9.72025 19.0526L15.9191 12.9474Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+        <div className="about-us">
+          <div className="about-us2">About Us </div>
+          <svg
+            className="angle-right3"
+            width="24"
+            height="25"
+            viewBox="0 0 24 25"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.9191 12.9474C16.1841 12.6842 16.1841 12.3158 15.9721 12.0526L9.72025 5.94737C9.45534 5.68421 9.03148 5.68421 8.81956 5.94737L8.44868 6.31579C8.18377 6.57895 8.18377 6.94737 8.44868 7.21053L13.8528 12.4737L8.44868 17.7895C8.18377 18.0526 8.18377 18.4211 8.44868 18.6842L8.81956 19.0526C9.03148 19.3158 9.45534 19.3158 9.72025 19.0526L15.9191 12.9474Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+        <div className="corporate">
+          <div className="contact-us">Contact Us </div>
+          <svg
+            className="angle-right4"
+            width="24"
+            height="25"
+            viewBox="0 0 24 25"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.9191 12.9474C16.1841 12.6842 16.1841 12.3158 15.9721 12.0526L9.72025 5.94737C9.45534 5.68421 9.03148 5.68421 8.81956 5.94737L8.44868 6.31579C8.18377 6.57895 8.18377 6.94737 8.44868 7.21053L13.8528 12.4737L8.44868 17.7895C8.18377 18.0526 8.18377 18.4211 8.44868 18.6842L8.81956 19.0526C9.03148 19.3158 9.45534 19.3158 9.72025 19.0526L15.9191 12.9474Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+      </div>
+      <div className="info">
+        <div className="terms-of-service">Terms of Service </div>
+        <div className="social-icons">
+          <div className="group-115">
+            <div className="ellipse-13"></div>
+            <svg
+              className="social"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.5723 4.99023H13.9844V2.60547C13.7412 2.57324 12.9033 2.5 11.9277 2.5C9.8916 2.5 8.49707 3.74219 8.49707 6.02441V8.125H6.25V10.791H8.49707V17.5H11.251V10.791H13.4072L13.75 8.125H11.251V6.28809C11.251 5.51758 11.4648 4.99023 12.5723 4.99023Z"
+                fill="#212932"
+              />
+            </svg>
+          </div>
+          <div className="group-114">
+            <div className="ellipse-14"></div>
+            <svg
+              className="social2"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10.0017 6.15419C7.8734 6.15419 6.15672 7.87125 6.15672 10C6.15672 12.1288 7.8734 13.8458 10.0017 13.8458C12.13 13.8458 13.8466 12.1288 13.8466 10C13.8466 7.87125 12.13 6.15419 10.0017 6.15419ZM10.0017 12.5003C8.62633 12.5003 7.50195 11.379 7.50195 10C7.50195 8.621 8.62298 7.49972 10.0017 7.49972C11.3804 7.49972 12.5014 8.621 12.5014 10C12.5014 11.379 11.377 12.5003 10.0017 12.5003ZM14.9007 5.99688C14.9007 6.49559 14.4992 6.8939 14.0039 6.8939C13.5053 6.8939 13.1071 6.49225 13.1071 5.99688C13.1071 5.50151 13.5086 5.09985 14.0039 5.09985C14.4992 5.09985 14.9007 5.50151 14.9007 5.99688ZM17.4473 6.90729C17.3904 5.70568 17.116 4.6413 16.2359 3.76436C15.3592 2.88743 14.295 2.61296 13.0937 2.55272C11.8555 2.48243 8.14445 2.48243 6.9063 2.55272C5.70831 2.60962 4.64417 2.88408 3.76408 3.76102C2.88399 4.63796 2.61294 5.70233 2.5527 6.90394C2.48243 8.14236 2.48243 11.8543 2.5527 13.0927C2.60959 14.2943 2.88399 15.3587 3.76408 16.2356C4.64417 17.1126 5.70496 17.387 6.9063 17.4473C8.14445 17.5176 11.8555 17.5176 13.0937 17.4473C14.295 17.3904 15.3592 17.1159 16.2359 16.2356C17.1127 15.3587 17.3871 14.2943 17.4473 13.0927C17.5176 11.8543 17.5176 8.14571 17.4473 6.90729ZM15.8477 14.4215C15.5867 15.0775 15.0814 15.583 14.4222 15.8474C13.435 16.239 11.0926 16.1486 10.0017 16.1486C8.91076 16.1486 6.56497 16.2356 5.58115 15.8474C4.92526 15.5863 4.41997 15.0809 4.15561 14.4215C3.76408 13.4341 3.85443 11.0912 3.85443 10C3.85443 8.90885 3.76743 6.56253 4.15561 5.57849C4.41662 4.92246 4.92192 4.41705 5.58115 4.15263C6.56832 3.76102 8.91076 3.85139 10.0017 3.85139C11.0926 3.85139 13.4384 3.76436 14.4222 4.15263C15.0781 4.4137 15.5834 4.91911 15.8477 5.57849C16.2393 6.56588 16.1489 8.90885 16.1489 10C16.1489 11.0912 16.2393 13.4375 15.8477 14.4215Z"
+                fill="#212932"
+              />
+            </svg>
+          </div>
+          <div className="group-113">
+            <div className="ellipse-15"></div>
+            <svg
+              className="social3"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.54792 16.25H3.95643V7.90458H6.54792V16.25ZM5.25078 6.76618C4.42228 6.76618 3.75 6.0798 3.75 5.25112C3.75 4.42243 4.42228 3.75 5.25078 3.75C6.07928 3.75 6.75156 4.42243 6.75156 5.25112C6.75156 6.0798 6.07928 6.76618 5.25078 6.76618ZM16.2472 16.25H13.6613V12.1875C13.6613 11.2193 13.6418 9.97768 12.3139 9.97768C10.9666 9.97768 10.7602 11.0296 10.7602 12.1177V16.25H8.17145V7.90458H10.6569V9.04297H10.6932C11.0391 8.38728 11.8843 7.69531 13.1452 7.69531C15.7674 7.69531 16.25 9.42243 16.25 11.6657V16.25H16.2472Z"
+                fill="#212932"
+              />
+            </svg>
+          </div>
+        </div>
+        <div className="privacy-policy">Privacy Policy </div>
+        <div className="line-13"></div>
+      </div>
+      </div>
+      <div className="language">
+        <svg
+          className="globe-outline"
+          width="16"
+          height="17"
+          viewBox="0 0 16 17"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8 4.2749C5.79032 4.2749 4 6.06522 4 8.2749C4 10.4846 5.79032 12.2749 8 12.2749C10.2097 12.2749 12 10.4846 12 8.2749C12 6.06522 10.2097 4.2749 8 4.2749ZM10.8919 6.85555H9.80806C9.7 6.26684 9.52581 5.74587 9.30484 5.32813C9.99677 5.63458 10.5581 6.17813 10.8919 6.85555ZM8 5.0491C8.3 5.0491 8.78387 5.71361 9.01935 6.85555H6.98065C7.21613 5.71361 7.7 5.0491 8 5.0491ZM4.77419 8.2749C4.77419 8.05393 4.79677 7.83781 4.83871 7.62974H6.09194C6.07581 7.84103 6.06452 8.05393 6.06452 8.2749C6.06452 8.49587 6.07581 8.70877 6.09194 8.92006H4.83871C4.79677 8.712 4.77419 8.49587 4.77419 8.2749ZM5.10806 9.69426H6.19194C6.3 10.283 6.47419 10.8039 6.69516 11.2217C6.00323 10.9152 5.44194 10.3717 5.10806 9.69426ZM6.19194 6.85555H5.10806C5.44194 6.17813 6.00323 5.63458 6.69516 5.32813C6.47419 5.74587 6.3 6.26684 6.19194 6.85555ZM8 11.5007C7.7 11.5007 7.21613 10.8362 6.98065 9.69426H9.02097C8.78387 10.8362 8.3 11.5007 8 11.5007ZM9.13065 8.92006H6.86935C6.85161 8.71361 6.83871 8.50071 6.83871 8.2749C6.83871 8.0491 6.85161 7.83619 6.86935 7.62974H9.13226C9.15 7.83619 9.1629 8.0491 9.1629 8.2749C9.1629 8.50071 9.14839 8.71361 9.13065 8.92006ZM9.30484 11.2217C9.52581 10.8039 9.69839 10.283 9.80806 9.69426H10.8919C10.5581 10.3717 9.99677 10.9152 9.30484 11.2217ZM9.90806 8.92006C9.92419 8.70877 9.93548 8.49587 9.93548 8.2749C9.93548 8.05393 9.92419 7.84103 9.90806 7.62974H11.1613C11.2032 7.83781 11.2258 8.05393 11.2258 8.2749C11.2258 8.49587 11.2032 8.712 11.1613 8.92006H9.90806Z"
+            fill="white"
+          />
+        </svg>
+
+        <div className="frame-65">
+          <div className="frame-63">
+            <div className="malaysia">Language </div>
+            <div className="line-132"></div>
+          </div>
+          <div className="frame-64">
+            <div className="bm">EN </div>
+            <svg
+              className="angle-down"
+              width="16"
+              height="17"
+              viewBox="0 0 16 17"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.81435 10.1962C7.92356 10.3011 8.07644 10.3011 8.18565 10.1962L11.4181 7.10955C11.5273 7.02556 11.5273 6.85758 11.4181 6.75259L10.9813 6.35364C10.8939 6.24866 10.7192 6.24866 10.61 6.35364L8.01092 8.83133L5.39002 6.35364C5.28081 6.24866 5.12793 6.24866 5.01872 6.35364L4.5819 6.75259C4.4727 6.85758 4.4727 7.02556 4.5819 7.10955L7.81435 10.1962Z"
+                fill="#909498"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  
   <div className="subscribe">
     <div className="frame-4731">
       <svg
@@ -278,7 +453,7 @@ export default async function Home() {
         <div className="frame-4729">
           <div className="email-address">Email address </div>
           <div className="frame-4728">
-            <div className="rectangle-39"></div>
+            <input type="email" className="rectangle-39"/>
             <div className="button4">
               <div className="button5">Subscribe </div>
             </div>
@@ -457,71 +632,10 @@ export default async function Home() {
       </div>
     </div>
   </div>
-  <div className="header-desktop">
-    <div className="navbar-desktop">
-      <div className="main-nav">
-        <div className="logo-nav-item">
-          <img
-            className="stamford-medical-logo-1"
-            src="images/logo.png"
-            alt='Logo'
-          />
-          <div className="nav-item">
-            <div className="navbar-item">
-            <div className="navbar-item2"><Link className='btn' href="#gp_services">GP Services </Link></div>
-            </div>
-            <div className="navbar-item3">
-            <div className="navbar-item2"><Link className='btn' href="#dt_services">Dental Services </Link></div>
-            </div>
-            <div className="navbar-item4">
-              <div className="navbar-item2">Contact Us </div>
-            </div>
-            <div className="navbar-item5">
-              <div className="navbar-item2">About Us </div>
-            </div>
-            {/* <div className="group-4844"> */}
-              <div className="button6">
-                <div className="group-128">
-                  <svg
-                    className="phone4"
-                    width="17"
-                    height="19"
-                    viewBox="0 0 17 19"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M15.5834 13.2754V15.5775C15.5842 15.7912 15.5438 16.0027 15.4647 16.1985C15.3857 16.3944 15.2698 16.5701 15.1244 16.7146C14.9791 16.8591 14.8075 16.9691 14.6206 17.0375C14.4337 17.106 14.2357 17.1314 14.0392 17.1122C11.8596 16.8556 9.76585 16.0487 7.9263 14.7564C6.21485 13.5782 4.76383 12.0063 3.6763 10.1522C2.47921 8.15035 1.73423 5.87112 1.50172 3.49922C1.48402 3.28701 1.5073 3.07315 1.57008 2.87123C1.63285 2.66931 1.73375 2.48376 1.86635 2.3264C1.99894 2.16904 2.16033 2.04331 2.34024 1.95722C2.52015 1.87113 2.71463 1.82657 2.9113 1.82637H5.0363C5.38006 1.8227 5.71332 1.95458 5.97397 2.19741C6.23461 2.44025 6.40486 2.77747 6.45297 3.14623C6.54266 3.88295 6.709 4.60631 6.9488 5.30251C7.04411 5.57717 7.06473 5.87567 7.00824 6.16263C6.95174 6.4496 6.8205 6.71301 6.63005 6.92165L5.73047 7.89619C6.73882 9.81732 8.20713 11.408 9.98047 12.5004L10.8801 11.5258C11.0726 11.3195 11.3158 11.1773 11.5807 11.1161C11.8456 11.0549 12.1211 11.0773 12.3746 11.1805C13.0173 11.4403 13.685 11.6205 14.3651 11.7177C14.7091 11.7702 15.0234 11.958 15.248 12.2452C15.4726 12.5324 15.592 12.8991 15.5834 13.2754Z"
-                      fill="white"
-                      stroke="white"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </div>
-                <div className="call-us">Call Us </div>
-                <div className="line-85"></div>
-                <svg
-                  className="icon-chevron-down2"
-                  width="12"
-                  height="7"
-                  viewBox="0 0 12 7"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M5.68175 6.8622C5.86895 7.04593 6.13104 7.04593 6.31825 6.8622L11.8596 1.46063C12.0468 1.31365 12.0468 1.01969 11.8596 0.835958L11.1108 0.137795C10.961 -0.0459318 10.6615 -0.0459318 10.4743 0.137795L6.01872 4.47375L1.52574 0.137795C1.33853 -0.0459318 1.07644 -0.0459318 0.889236 0.137795L0.140406 0.835958C-0.0468019 1.01969 -0.0468019 1.31365 0.140406 1.46063L5.68175 6.8622Z"
-                    fill="white"
-                  />
-                </svg>
-              </div>
-            {/* </div> */}
-            {/* <div className="group-363"></div> */}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <Navigation/>
+{/*Toggle */}
+  
+
 </div>
 );
 }

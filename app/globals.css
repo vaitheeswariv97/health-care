@@ -2,1344 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (max-width:961px)  { .homepage-mobile-minified-bar,
-    .homepage-mobile-minified-bar * {
+.homepage,
+    .homepage * {
       box-sizing: border-box;
     }
-    .homepage-mobile-minified-bar {
-      background: var(--primary-neutral-n-0, #ffffff);
-      width: 320px;
-      height: 3943px;
-      position: relative;
-      overflow: hidden;
-    }
-    .getting-here {
-      width: 272px;
-      height: 1084px;
-      position: absolute;
-      left: 24px;
-      top: 2155px;
-    }
-    .background {
-      position: absolute;
-      left: -24px;
-      top: -44px;
-      overflow: visible;
-    }
-    .label-title-desc-mobile {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      align-items: center;
-      justify-content: flex-start;
-      width: 272px;
-      position: absolute;
-      left: 0px;
-      top: 0px;
-    }
-    .label {
-      color: var(--primary-neutral-n-0, #ffffff);
-      text-align: center;
-      font: var(--heading-h-6-reg, 400 12px/160% "Inter", sans-serif);
-      text-transform: uppercase;
-      position: relative;
-      align-self: stretch;
-    }
-    .title {
-      color: var(--primary-neutral-n-0, #ffffff);
-      text-align: center;
-      font: var(--heading-h-2-resp, 500 28px/140% "Inter", sans-serif);
-      position: relative;
-      align-self: stretch;
-    }
-    .frame-4857 {
-      border-radius: 8px;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: flex-start;
-      height: 824px;
-      position: absolute;
-      left: 0px;
-      top: 120px;
-    }
-    .frame-48572 {
-      display: flex;
-      flex-direction: column;
-      gap: 25px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      height: 804px;
-      position: relative;
-    }
-    .frame-4745 {
-      background: var(--primary-neutral-n-0, #ffffff);
-      border-radius: 8px;
-      display: flex;
-      flex-direction: row;
-      gap: 0px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      height: 824px;
-      position: relative;
-      box-shadow: var(
-        --shadow-tight-box-shadow,
-        0px 1px 2px 1px rgba(0, 0, 0, 0.07)
-      );
-    }
-    .list-mobile {
-      padding: 24px 0px 24px 0px;
-      display: flex;
-      flex-direction: column;
-      gap: 18px;
-      align-items: center;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      width: 272px;
-      height: 829px;
-      position: relative;
-    }
-    .frame-4744 {
-      flex-shrink: 0;
-      width: 224px;
-      height: 800px;
-      position: relative;
-    }
-    .frame-313 {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      width: 224px;
-      position: absolute;
-      left: 0px;
-      top: 0px;
-    }
-    .frame-4959 {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-    }
-    .frame-312 {
-      flex-shrink: 0;
-      width: 224px;
-      height: 210px;
-      position: relative;
-    }
-    .group-295 {
-      position: absolute;
-      inset: 0;
-    }
-    .angle-up {
-      position: absolute;
-      left: 200px;
-      top: 0px;
-      overflow: visible;
-    }
-    .stamford-medical-group-main-branch {
-      color: var(--primary-neutral-n-900, #212932);
-      text-align: left;
-      font: 600 16px/150% "Inter", sans-serif;
-      position: absolute;
-      left: 0px;
-      top: 0px;
-      width: 193.55px;
-    }
-    ._681-race-course-rd-01-303-singapore-210681 {
-      color: var(--text-description-n-600, #4d545b);
-      text-align: left;
-      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
-      position: absolute;
-      left: 0px;
-      top: 56px;
-      width: 224px;
-    }
-    .frame-4777 {
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      position: absolute;
-      left: 0px;
-      top: 120px;
-    }
-    .frame-4772 {
-      display: flex;
-      flex-direction: row;
-      gap: 0px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-    }
-    .mon-fri {
-      color: var(--primary-neutral-n-900, #212932);
-      text-align: left;
-      font: var(--body-small-medium, 500 14px/160% "Inter", sans-serif);
-      position: relative;
-      width: 72px;
-    }
-    ._8-30-am-5-00-pm {
-      color: var(--text-description-n-600, #4d545b);
-      text-align: left;
-      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
-      position: relative;
-      width: 163px;
-    }
-    .frame-4781 {
-      display: flex;
-      flex-direction: row;
-      gap: 0px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-    }
-    .sat-sun {
-      color: var(--primary-neutral-n-900, #212932);
-      text-align: left;
-      font: var(--body-small-medium, 500 14px/160% "Inter", sans-serif);
-      position: relative;
-      width: 73px;
-    }
-    ._8-30-am-1-00-pm {
-      color: var(--text-description-n-600, #4d545b);
-      text-align: left;
-      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
-      position: relative;
-      width: 163px;
-    }
-    .frame-4778 {
-      display: flex;
-      flex-direction: row;
-      gap: 0px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      height: 15px;
-      position: relative;
-    }
-    .text {
-      color: var(--primary-neutral-n-900, #212932);
-      text-align: left;
-      font: 600 16px/160% "Inter", sans-serif;
-      position: relative;
-      width: 68px;
-    }
-    .frame-4779 {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-    }
-    .phone {
-      padding: 4px;
-      flex-shrink: 0;
-      position: relative;
-      overflow: visible;
-    }
-    .text2 {
-      margin: 0 0 0 -12px;
-      color: var(--primary-neutral-n-900, #212932);
-      text-align: left;
-      font: 600 16px/160% "Inter", sans-serif;
-      position: relative;
-      width: 37px;
-    }
-    ._65-6226-5502 {
-      margin: 0 0 0 -12px;
-      color: var(--text-description-n-600, #4d545b);
-      text-align: left;
-      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
-      position: relative;
-      width: 163px;
-    }
-    .line-6 {
-      border-style: solid;
-      border-color: var(--copper-c-70, #e5e2dc);
-      border-width: 1px 0 0 0;
-      flex-shrink: 0;
-      width: 224px;
-      height: 0px;
-      position: relative;
-      transform-origin: 0 0;
-      transform: rotate(0deg) scale(1, 1);
-    }
-    .frame-3132 {
-      flex-shrink: 0;
-      width: 224px;
-      height: 232px;
-      position: relative;
-    }
-    .angle-up2 {
-      position: absolute;
-      left: 200px;
-      top: 0px;
-      overflow: visible;
-    }
-    .stamford-medical-dental-centre {
-      color: var(--primary-neutral-n-900, #212932);
-      text-align: left;
-      font: var(--body-normal-semibold, 600 16px/150% "Inter", sans-serif);
-      position: absolute;
-      left: 0px;
-      top: 0px;
-      width: 193.55px;
-    }
-    ._682-race-course-rd-01-325-singapore-210682 {
-      color: var(--text-description-n-600, #4d545b);
-      text-align: left;
-      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
-      position: absolute;
-      left: 0px;
-      top: 56px;
-      width: 224px;
-    }
-    .mon-fri2 {
-      color: var(--primary-neutral-n-900, #212932);
-      text-align: left;
-      font: var(--body-small-medium, 500 14px/160% "Inter", sans-serif);
-      position: relative;
-      width: 68px;
-    }
-    ._9-00-am-6-00-pm {
-      color: var(--text-description-n-600, #4d545b);
-      text-align: left;
-      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
-      position: relative;
-      width: 163px;
-    }
-    .frame-47812 {
-      display: flex;
-      flex-direction: row;
-      gap: 0px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      width: 231px;
-      position: relative;
-    }
-    .closed-on-weekends-public-holidays {
-      color: var(--primary-neutral-n-900, #212932);
-      text-align: left;
-      font: var(--body-small-medium, 500 14px/160% "Inter", sans-serif);
-      position: relative;
-      width: 231px;
-    }
-    .phone2 {
-      padding: 4px;
-      flex-shrink: 0;
-      position: relative;
-      overflow: visible;
-    }
-    ._65-6322-6350 {
-      margin: 0 0 0 -12px;
-      color: var(--text-description-n-600, #4d545b);
-      text-align: left;
-      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
-      position: relative;
-      width: 163px;
-    }
-    .frame-314 {
-      flex-shrink: 0;
-      width: 224px;
-      height: 232px;
-      position: relative;
-    }
-    .angle-up3 {
-      position: absolute;
-      left: 200px;
-      top: 0px;
-      overflow: visible;
-    }
-    .stamford-westlite-toh-guan {
-      color: var(--text-heading-n-900, #212932);
-      text-align: left;
-      font: var(--body-normal-semibold, 600 16px/150% "Inter", sans-serif);
-      position: absolute;
-      left: 0px;
-      top: 0px;
-      width: 193.55px;
-    }
-    ._28-toh-guan-road-east-westlite-dormitory-01-01-mezzanine-floor-singapore-608596 {
-      color: var(--text-description-n-600, #4d545b);
-      text-align: left;
-      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
-      position: absolute;
-      left: 0px;
-      top: 56px;
-      width: 224px;
-    }
-    .frame-47772 {
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      position: absolute;
-      left: 0px;
-      top: 142px;
-    }
-    ._8-30-am-5-30-pm {
-      color: var(--text-description-n-600, #4d545b);
-      text-align: left;
-      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
-      position: relative;
-      width: 163px;
-    }
-    .frame-4782 {
-      display: flex;
-      flex-direction: row;
-      gap: 0px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-    }
-    .sat {
-      color: var(--primary-neutral-n-900, #212932);
-      text-align: left;
-      font: var(--body-small-medium, 500 14px/160% "Inter", sans-serif);
-      position: relative;
-      width: 31px;
-    }
-    ._8-30-am-12-30-pm {
-      color: var(--text-description-n-600, #4d545b);
-      text-align: left;
-      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
-      position: relative;
-      width: 163px;
-    }
-    .closed-on-sunday-public-holidays {
-      color: var(--primary-neutral-n-900, #212932);
-      text-align: left;
-      font: var(--body-small-medium, 500 14px/160% "Inter", sans-serif);
-      position: relative;
-      width: 231px;
-    }
-    .phone3 {
-      padding: 4px;
-      flex-shrink: 0;
-      position: relative;
-      overflow: visible;
-    }
-    .frame-47822 {
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-      align-items: center;
-      justify-content: center;
-      position: absolute;
-      left: 0px;
-      top: 972px;
-    }
-    .image-358 {
-      border-radius: 8px;
-      flex-shrink: 0;
-      width: 272px;
-      height: 335px;
-      position: relative;
-      box-shadow: var(
-        --shadow-raise-box-shadow,
-        0px 8px 32px 0px rgba(0, 0, 0, 0.1)
-      );
-    }
-    .services {
-      width: 272px;
-      height: 738px;
-      position: absolute;
-      left: calc(50% - 136px);
-      top: 633px;
-    }
-    .background2 {
-      position: absolute;
-      left: -24px;
-      top: 305px;
-      overflow: visible;
-    }
-    .label2 {
-      color: var(--text-heading-n-900, #212932);
-      text-align: center;
-      font: var(--heading-h-6-reg, 400 12px/160% "Inter", sans-serif);
-      text-transform: uppercase;
-      position: relative;
-      align-self: stretch;
-    }
-    .title2 {
-      color: var(--text-heading-n-900, #212932);
-      text-align: center;
-      font: var(--heading-h-2-resp, 500 28px/140% "Inter", sans-serif);
-      position: relative;
-      align-self: stretch;
-    }
-    .frame-4844 {
-      border-radius: 8px;
-      display: flex;
-      flex-direction: column;
-      gap: 28px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      height: 833px;
-      position: absolute;
-      left: calc(50% - 136px);
-      top: 147px;
-    }
-    .frame-47452 {
-      background: var(--primary-neutral-n-0, #ffffff);
-      border-radius: 8px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      height: 373px;
-      position: relative;
-      box-shadow: var(
-        --shadow-tight-box-shadow,
-        0px 1px 2px 1px rgba(0, 0, 0, 0.07)
-      );
-    }
-    .group-365 {
-      flex-shrink: 0;
-      width: 272px;
-      height: 373px;
-      position: static;
-    }
-    .frame-4843 {
-      border-radius: 8px;
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      height: 373px;
-      position: absolute;
-      left: 0px;
-      top: 0px;
-    }
-    .image-362 {
-      border-radius: 8px 8px 0px 0px;
-      flex-shrink: 0;
-      width: 272px;
-      height: 184px;
-      position: relative;
-      transform-origin: 0 0;
-      transform: rotate(0deg) scale(-1, 1);
-    }
-    .list-mobile2 {
-      padding: 10px 24px 10px 24px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-    }
-    .frame-47442 {
-      display: flex;
-      flex-direction: column;
-      gap: 13px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-    }
-    .general-practice {
-      color: var(--text-heading-n-900, #212932);
-      text-align: left;
-      font: var(--heading-h-4-medium, 500 18px/140% "Inter", sans-serif);
-      position: relative;
-      width: 224px;
-    }
-    .explore-our-range-of-gp-services-such-as-gp-statutory-check-ups-and-vaccinations {
-      color: var(--text-body-n-700, #373e46);
-      text-align: left;
-      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
-      position: relative;
-      width: 224px;
-    }
-    .button {
-      padding: 9px 0px 9px 0px;
-      display: flex;
-      flex-direction: row;
-      gap: 4px;
-      align-items: center;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-    }
-    .button2 {
-      display: flex;
-      flex-direction: row;
-      gap: 4px;
-      align-items: center;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-    }
-    .text3 {
-      color: var(--primary-copper-c-500, #a78148);
-      text-align: left;
-      font: var(--button-label-small-semibold, 600 14px/100% "Inter", sans-serif);
-      position: relative;
-    }
-    .angle-right {
-      flex-shrink: 0;
-      position: relative;
-      overflow: visible;
-    }
-    .frame-4746 {
-      background: var(--primary-neutral-n-0, #ffffff);
-      border-radius: 8px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      height: 417px;
-      position: relative;
-      box-shadow: var(
-        --shadow-tight-box-shadow,
-        0px 1px 2px 1px rgba(0, 0, 0, 0.07)
-      );
-    }
-    .group-3652 {
-      flex-shrink: 0;
-      width: 272px;
-      height: 417px;
-      position: static;
-    }
-    .frame-48432 {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      position: absolute;
-      left: 0px;
-      top: 0px;
-    }
-    .image-40 {
-      border-radius: 8px;
-      flex-shrink: 0;
-      width: 272px;
-      height: 184px;
-      position: relative;
-    }
-    .frame-47443 {
-      display: flex;
-      flex-direction: column;
-      gap: 13px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      height: 205px;
-      position: relative;
-    }
-    .dental-services {
-      color: var(--text-heading-n-900, #212932);
-      text-align: left;
-      font: var(--heading-h-4-medium, 500 18px/140% "Inter", sans-serif);
-      position: relative;
-      width: 224px;
-    }
-    .explore-our-range-of-dental-services-such-as-routine-dental-check-up-tooth-extraction-dental-fillings-scaling-and-polishing {
-      color: var(--text-body-n-700, #373e46);
-      text-align: left;
-      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
-      position: relative;
-      width: 224px;
-    }
-    .angle-right2 {
-      flex-shrink: 0;
-      position: relative;
-      overflow: visible;
-    }
-    .hero {
-      opacity: 0.8999999761581421;
-      width: 319px;
-      height: 454px;
-      position: absolute;
-      left: calc(50% - 160px);
-      top: 134px;
-    }
-    .background3 {
-      position: absolute;
-      left: 0px;
-      top: -126px;
-      overflow: visible;
-    }
-    .frame-4743 {
-      display: flex;
-      flex-direction: column;
-      gap: 38px;
-      align-items: center;
-      justify-content: flex-start;
-      width: 319px;
-      height: 325px;
-      position: absolute;
-      left: calc(50% - 159.5px);
-      top: 31px;
-    }
-    .frame-4742 {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      align-items: center;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-    }
-    .group-219 {
-      flex-shrink: 0;
-      width: 272px;
-      height: 117px;
-      position: static;
-    }
-    .removing-barriers-to-access-greater-healthcare-for-all {
-      color: var(--primary-neutral-n-0, #ffffff);
-      text-align: center;
-      font: var(--heading-h-2-resp, 500 28px/140% "Inter", sans-serif);
-      position: absolute;
-      left: 0px;
-      top: 0px;
-      width: 272px;
-    }
-    .text4 {
-      color: var(--copper-c-100, #e5d9c8);
-      text-align: left;
-      font: var(--button-label-small-semibold, 600 14px/100% "Inter", sans-serif);
-      position: relative;
-    }
-    .angle-right3 {
-      flex-shrink: 0;
-      position: relative;
-      overflow: visible;
-    }
-    .image-360 {
-      border-radius: 8px;
-      flex-shrink: 0;
-      width: 272px;
-      height: 224px;
-      position: relative;
-    }
-    .subscribe {
-      background: var(--primary-neutral-n-0, #ffffff);
-      border-radius: 8px;
-      padding: 20px 16px 20px 16px;
-      display: flex;
-      flex-direction: row;
-      gap: 8px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      position: absolute;
-      left: calc(50% - 137px);
-      top: 1655px;
-      box-shadow: var(
-        --shadow-raise-box-shadow,
-        0px 8px 32px 0px rgba(0, 0, 0, 0.1)
-      );
-    }
-    .frame-4762 {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      align-items: center;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-    }
-    .email {
-      flex-shrink: 0;
-      position: relative;
-      overflow: visible;
-    }
-    .frame-4761 {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-    }
-    .frame-4760 {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-    }
-    .don-t-miss-out-on-healthier-living {
-      color: var(--primary-neutral-n-900, #212932);
-      text-align: center;
-      font: var(--heading-h-3, 500 24px/140% "Inter", sans-serif);
-      position: relative;
-      width: 242px;
-    }
-    .subscribe-to-our-mailing-list-and-get-the-latest-news-on-events-and-health-packages-delivered-direct-to-your-mailbox {
-      color: var(--text-body-n-700, #373e46);
-      text-align: center;
-      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
-      position: relative;
-      width: 242px;
-    }
-    .email-address {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-    }
-    .frame-4759 {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      align-items: center;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-    }
-    .email-address2 {
-      color: var(--text-body-n-700, #373e46);
-      text-align: left;
-      font: var(--button-label-small-semibold, 600 14px/100% "Inter", sans-serif);
-      position: relative;
-    }
-    .rectangle-39 {
-      background: var(--primary-neutral-n-0, #ffffff);
-      border-radius: 4px;
-      border-style: solid;
-      border-color: var(--copper-c-70, #e5e2dc);
-      border-width: 1px;
-      flex-shrink: 0;
-      width: 242px;
-      height: 40px;
-      position: relative;
-    }
-    .button3 {
-      background: var(--primary-green-g-500, #00863f);
-      border-radius: 4px;
-      padding: 13px 16px 13px 16px;
-      display: flex;
-      flex-direction: row;
-      gap: 10px;
-      align-items: flex-start;
-      justify-content: center;
-      flex-shrink: 0;
-      width: 242px;
-      position: relative;
-    }
-    .button4 {
-      color: var(--primary-neutral-n-0, #ffffff);
-      text-align: center;
-      font: var(--button-label-small-semibold, 600 14px/100% "Inter", sans-serif);
-      position: relative;
-    }
-    .footer-mobile {
-      width: 320px;
-      height: 427px;
-      position: absolute;
-      left: 0px;
-      top: 3516px;
-    }
-    .background4 {
-      background: var(--green-g-900, #003218);
-      width: 320px;
-      height: 427px;
-      position: absolute;
-      left: 0px;
-      top: 0px;
-    }
-    .footer {
-      display: flex;
-      flex-direction: column;
-      gap: 40px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      position: absolute;
-      left: 24px;
-      top: 76px;
-    }
-    .navigation {
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-    }
-    .clinical-services {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-    }
-    .frame-4764 {
-      display: flex;
-      flex-direction: row;
-      gap: 24px;
-      align-items: center;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      width: 272px;
-      position: relative;
-    }
-    .gp-services {
-      color: var(--primary-neutral-n-0, #ffffff);
-      text-align: left;
-      font: var(--body-large-reg, 400 18px/150% "Inter", sans-serif);
-      position: relative;
-      flex: 1;
-    }
-    .angle-right4 {
-      flex-shrink: 0;
-      position: relative;
-      overflow: visible;
-    }
-    .health-screening {
-      display: flex;
-      flex-direction: row;
-      gap: 24px;
-      align-items: center;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      width: 272px;
-      position: relative;
-    }
-    .dental-services2 {
-      color: var(--primary-neutral-n-0, #ffffff);
-      text-align: left;
-      font: var(--body-large-reg, 400 18px/150% "Inter", sans-serif);
-      position: relative;
-      flex: 1;
-    }
-    .angle-right5 {
-      flex-shrink: 0;
-      position: relative;
-      overflow: visible;
-    }
-    .about-us {
-      display: flex;
-      flex-direction: row;
-      gap: 24px;
-      align-items: center;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      width: 272px;
-      position: relative;
-    }
-    .about-us2 {
-      color: var(--primary-neutral-n-0, #ffffff);
-      text-align: left;
-      font: var(--body-large-reg, 400 18px/150% "Inter", sans-serif);
-      position: relative;
-      flex: 1;
-    }
-    .angle-right6 {
-      flex-shrink: 0;
-      position: relative;
-      overflow: visible;
-    }
-    .corporate {
-      display: flex;
-      flex-direction: row;
-      gap: 24px;
-      align-items: center;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      width: 272px;
-      position: relative;
-    }
-    .contact-us {
-      color: var(--primary-neutral-n-0, #ffffff);
-      text-align: left;
-      font: var(--body-large-reg, 400 18px/150% "Inter", sans-serif);
-      position: relative;
-      flex: 1;
-    }
-    .angle-right7 {
-      flex-shrink: 0;
-      position: relative;
-      overflow: visible;
-    }
-    .info {
-      flex-shrink: 0;
-      width: 272px;
-      height: 89px;
-      position: relative;
-    }
-    .terms-of-service {
-      color: var(--green-g-50, #e9fbf2);
-      text-align: left;
-      font: var(--navmenu-secondary-reg-resp, 400 13px/160% "Inter", sans-serif);
-      position: absolute;
-      left: 7px;
-      top: 68px;
-    }
-    .social-icons {
-      display: flex;
-      flex-direction: row;
-      gap: 16px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      position: absolute;
-      left: 7px;
-      top: 24px;
-    }
-    .group-115 {
-      flex-shrink: 0;
-      width: 24px;
-      height: 24px;
-      position: static;
-    }
-    .ellipse-13 {
-      background: var(--primary-neutral-n-0, #ffffff);
-      border-radius: 50%;
-      width: 24px;
-      height: 24px;
-      position: absolute;
-      left: 0px;
-      top: 0px;
-    }
-    .social {
-      position: absolute;
-      left: 2px;
-      top: 2px;
-      overflow: visible;
-    }
-    .group-114 {
-      flex-shrink: 0;
-      width: 24px;
-      height: 24px;
-      position: static;
-    }
-    .ellipse-14 {
-      background: var(--primary-neutral-n-0, #ffffff);
-      border-radius: 50%;
-      width: 24px;
-      height: 24px;
-      position: absolute;
-      left: 40px;
-      top: 0px;
-    }
-    .social2 {
-      position: absolute;
-      left: 42px;
-      top: 2px;
-      overflow: visible;
-    }
-    .group-113 {
-      flex-shrink: 0;
-      width: 24px;
-      height: 24px;
-      position: static;
-    }
-    .ellipse-15 {
-      background: var(--primary-neutral-n-0, #ffffff);
-      border-radius: 50%;
-      width: 24px;
-      height: 24px;
-      position: absolute;
-      left: 80px;
-      top: 0px;
-    }
-    .social3 {
-      position: absolute;
-      left: 82px;
-      top: 2px;
-      overflow: visible;
-    }
-    .privacy-policy {
-      color: var(--green-g-50, #e9fbf2);
-      text-align: left;
-      font: var(--navmenu-secondary-reg-resp, 400 13px/160% "Inter", sans-serif);
-      position: absolute;
-      left: 127px;
-      top: 68px;
-    }
-    .line-13 {
-      border-style: solid;
-      border-color: var(--green-g-800, #004320);
-      border-width: 1px 0 0 0;
-      width: 272px;
-      height: 0px;
-      position: absolute;
-      left: 0px;
-      top: 8px;
-    }
-    .language {
-      border-radius: 4px;
-      border-style: solid;
-      border-color: var(--neutral-n-300, #909498);
-      border-width: 1px;
-      padding: 6px 4px 6px 4px;
-      display: flex;
-      flex-direction: row;
-      gap: 2px;
-      align-items: center;
-      justify-content: flex-start;
-      position: absolute;
-      left: 24px;
-      top: 21.28px;
-      overflow: hidden;
-    }
-    .globe-outline {
-      padding: 4px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-      overflow: visible;
-    }
-    .frame-65 {
-      display: flex;
-      flex-direction: row;
-      gap: 8px;
-      align-items: center;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-    }
-    .frame-63 {
-      display: flex;
-      flex-direction: row;
-      gap: 4px;
-      align-items: center;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-    }
-    .malaysia {
-      color: var(--primary-neutral-n-0, #ffffff);
-      text-align: left;
-      font: var(--button-label-micro, 600 10px/100% "Inter", sans-serif);
-      position: relative;
-    }
-    .line-132 {
-      border-style: solid;
-      border-color: var(--neutral-n-300, #909498);
-      border-width: 1px 0 0 0;
-      flex-shrink: 0;
-      width: 15px;
-      height: 0px;
-      position: relative;
-      transform-origin: 0 0;
-      transform: rotate(90deg) scale(1, 1);
-    }
-    .frame-64 {
-      display: flex;
-      flex-direction: row;
-      gap: 2px;
-      align-items: center;
-      justify-content: flex-end;
-      flex-shrink: 0;
-      position: relative;
-    }
-    .bm {
-      color: var(--primary-neutral-n-0, #ffffff);
-      text-align: left;
-      font: var(--button-label-micro, 600 10px/100% "Inter", sans-serif);
-      position: relative;
-    }
-    .angle-down {
-      flex-shrink: 0;
-      position: relative;
-      overflow: visible;
-    }
-    .mobile-header {
-      display: flex;
-      flex-direction: column;
-      gap: 0px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      position: absolute;
-      left: calc(50% - 160px);
-      top: 0px;
-    }
-    .status-bar-i-os-black {
-      background: var(--primary-neutral-n-0, #ffffff);
-      flex-shrink: 0;
-      width: 320px;
-      height: 20px;
-      position: relative;
-    }
-    .pin-right {
-      width: 72px;
-      height: 15px;
-      position: absolute;
-      right: 5px;
-      top: 3px;
-      overflow: hidden;
-    }
-    .battery {
-      position: absolute;
-      inset: 0;
-    }
-    .battery2 {
-      position: absolute;
-      left: 45px;
-      top: 1.5px;
-      overflow: visible;
-    }
-    ._100 {
-      position: absolute;
-      left: 11.93px;
-      top: 2.85px;
-      overflow: visible;
-    }
-    .bluetooth {
-      position: absolute;
-      left: 0.5px;
-      top: 2px;
-      overflow: visible;
-    }
-    ._9-41-am {
-      position: absolute;
-      left: 135.98px;
-      top: 5.83px;
-      overflow: visible;
-    }
-    .group {
-      position: absolute;
-      left: 6px;
-      top: 3px;
-      overflow: visible;
-    }
-    .notification-bar {
-      background: var(--trafficlight-warning, #f3cd68);
-      padding: 8px 15px 8px 15px;
-      flex-shrink: 0;
-      width: 320px;
-      height: 54px;
-      position: relative;
-    }
-    .info2 {
-      position: absolute;
-      left: 8px;
-      top: 17px;
-      overflow: visible;
-    }
-    .emergency-very-important-message-goes-here {
-      color: var(--text-body-n-700, #373e46);
-      text-align: left;
-      font: var(--body-mini-reg, 400 12px/160% "Inter", sans-serif);
-      position: absolute;
-      left: 32px;
-      top: 8px;
-      width: 280px;
-    }
-    .button5 {
-      display: flex;
-      flex-direction: row;
-      gap: 0px;
-      align-items: center;
-      justify-content: flex-start;
-      position: absolute;
-      left: 32px;
-      top: 30px;
-    }
-    .link {
-      color: var(--text-body-n-700, #373e46);
-      text-align: left;
-      font: var(--button-label-mini-semibold, 600 12px/100% "Inter", sans-serif);
-      position: relative;
-    }
-    .angle-right8 {
-      flex-shrink: 0;
-      position: relative;
-      overflow: visible;
-    }
-    .navbar-mobile-minified-bar {
-      background: #ffffff;
-      flex-shrink: 0;
-      width: 320px;
-      height: 60px;
-      position: relative;
-      box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.1);
-    }
-    .frame-252 {
-      width: 28px;
-      height: 28px;
-      position: absolute;
-      left: 274px;
-      top: 16px;
-    }
-    .menu {
-      position: absolute;
-      left: calc(50% - 10px);
-      top: calc(50% - 10px);
-      overflow: visible;
-    }
-    .stamford-medical-logo-1 {
-      width: 103px;
-      height: 73px;
-      position: absolute;
-      left: 24px;
-      top: -7px;
-    }
-    .button6 {
-      background: var(--primary-green-g-500, #00863f);
-      border-radius: 4px;
-      padding: 7px;
-      display: flex;
-      flex-direction: row;
-      gap: 8px;
-      align-items: center;
-      justify-content: center;
-      position: absolute;
-      left: 185px;
-      top: 91px;
-    }
-    .group-128 {
-      flex-shrink: 0;
-      width: 12px;
-      height: 13px;
-      position: static;
-    }
-    .phone4 {
-      position: absolute;
-      left: 7px;
-      top: 7px;
-      overflow: visible;
-    }
-    .call-us {
-      color: var(--neutral-n-0, #ffffff);
-      text-align: center;
-      font: var(--button-label-mini-semibold, 600 12px/100% "Inter", sans-serif);
-      position: relative;
-    }
-     }
-
-@media (min-width:1025px) { .homepage-desktop,
-    .homepage-desktop * {
-      box-sizing: border-box;
-    }
-    .homepage-desktop {
+    .homepage {
       background: var(--primary-neutral-n-0, #ffffff);
       width: 1440px;
       height: 3303px;
@@ -1358,6 +25,9 @@
       left: -3px;
       top: 414px;
       overflow: visible;
+    }
+    .footer-mobile{
+      display: none;
     }
     .label-title-desc {
       display: flex;
@@ -1557,6 +227,8 @@
       top: 180px;
     }
     .background2 {
+      display: flex;
+      flex-direction: column;
       position: absolute;
       left: 0px;
       top: -117px;
@@ -1612,7 +284,7 @@
       width: 1447px;
       height: 163px;
       position: absolute;
-      left: calc(50% - 720px);
+      left: 0px;
       bottom: 0px;
     }
     .rectangle-55 {
@@ -1620,7 +292,7 @@
       width: 1440px;
       height: 163px;
       position: absolute;
-      left: 0px;
+      left: 98px;
       bottom: 0px;
     }
     .footer-links {
@@ -2225,6 +897,9 @@
       position: relative;
       box-shadow: 0px 8px 22px 0px rgba(0, 0, 0, 0.1);
     }
+    .mobile-header{
+      display: none;
+    }
     .header-desktop {
       display: flex;
       flex-direction: column;
@@ -2386,7 +1061,1477 @@
       position: absolute;
       inset: 0;
     }
+
+@media screen and (min-width:320px) and (max-width:600px)  { .homepage,
+    .homepage * {
+      box-sizing: border-box;
+    }
+    .homepage {
+      background: var(--primary-neutral-n-0, #ffffff);
+      width: 320px;
+      height: 3943px;
+      position: relative;
+      overflow: hidden;
+    }
+    .getting-here {
+      width: 272px;
+      height: 1084px;
+      position: absolute;
+      left: 24px;
+      top: 2155px;
+    }
+    .background {
+      position: absolute;
+      left: -24px;
+      top: -44px;
+      overflow: visible;
+    }
+    .label-title-desc-mobile {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      align-items: center;
+      justify-content: flex-start;
+      width: 272px;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+    .label {
+      color: var(--primary-neutral-n-0, #ffffff);
+      text-align: center;
+      font: var(--heading-h-6-reg, 400 12px/160% "Inter", sans-serif);
+      text-transform: uppercase;
+      position: relative;
+      align-self: stretch;
+    }
+    .title {
+      color: var(--primary-neutral-n-0, #ffffff);
+      text-align: center;
+      font: var(--heading-h-2-resp, 500 28px/140% "Inter", sans-serif);
+      position: relative;
+      align-self: stretch;
+    }
+    .frame-4857 {
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      height: 824px;
+      position: absolute;
+      left: 0px;
+      top: 120px;
+    }
+    .frame-48572 {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      height: 804px;
+      position: relative;
+    }
+    .frame-4745 {
+      background: var(--primary-neutral-n-0, #ffffff);
+      border-radius: 8px;
+      display: flex;
+      flex-direction: row;
+      gap: 0px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      height: 824px;
+      position: relative;
+      box-shadow: var(
+        --shadow-tight-box-shadow,
+        0px 1px 2px 1px rgba(0, 0, 0, 0.07)
+      );
+    }
+    .list-mobile {
+      padding: 24px 0px 24px 0px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      align-items: center;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      width: 272px;
+      height: 829px;
+      position: relative;
+    }
+    .frame-4744 {
+      flex-shrink: 0;
+      width: 224px;
+      height: 800px;
+      position: relative;
+    }
+    .frame-313 {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 224px;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+    .frame-4959 {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .frame-312 {
+      flex-shrink: 0;
+      width: 224px;
+      height: 210px;
+      position: relative;
+    }
+    .group-295 {
+      position: absolute;
+      inset: 0;
+    }
+    .angle-up {
+      position: absolute;
+      left: 200px;
+      top: 0px;
+      overflow: visible;
+    }
+    .stamford-medical-group-main-branch {
+      color: var(--primary-neutral-n-900, #212932);
+      text-align: left;
+      font: 600 16px/150% "Inter", sans-serif;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 193.55px;
+    }
+    ._681-race-course-rd-01-303-singapore-210681 {
+      color: var(--text-description-n-600, #4d545b);
+      text-align: left;
+      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
+      position: absolute;
+      left: 0px;
+      top: 56px;
+      width: 224px;
+    }
+    .frame-4777 {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: absolute;
+      left: 0px;
+      top: 120px;
+    }
+    .frame-4772 {
+      display: flex;
+      flex-direction: row;
+      gap: 0px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .mon-fri {
+      color: var(--primary-neutral-n-900, #212932);
+      text-align: left;
+      font: var(--body-small-medium, 500 14px/160% "Inter", sans-serif);
+      position: relative;
+      width: 72px;
+    }
+    ._8-30-am-5-00-pm {
+      color: var(--text-description-n-600, #4d545b);
+      text-align: left;
+      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
+      position: relative;
+      width: 163px;
+    }
+    .frame-4781 {
+      display: flex;
+      flex-direction: row;
+      gap: 0px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .sat-sun {
+      color: var(--primary-neutral-n-900, #212932);
+      text-align: left;
+      font: var(--body-small-medium, 500 14px/160% "Inter", sans-serif);
+      position: relative;
+      width: 73px;
+    }
+    ._8-30-am-1-00-pm {
+      color: var(--text-description-n-600, #4d545b);
+      text-align: left;
+      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
+      position: relative;
+      width: 163px;
+    }
+    .frame-4778 {
+      display: flex;
+      flex-direction: row;
+      gap: 0px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      height: 15px;
+      position: relative;
+    }
+    .text {
+      color: var(--primary-neutral-n-900, #212932);
+      text-align: left;
+      font: 600 16px/160% "Inter", sans-serif;
+      position: relative;
+      width: 68px;
+    }
+    .frame-4779 {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .phone {
+      padding: 4px;
+      flex-shrink: 0;
+      position: relative;
+      overflow: visible;
+    }
+    .text2 {
+      color: var(--copper-c-100, #e5d9c8);
+  text-align: left;
+  font: var(--button-label-small-semibold, 600 14px/100% "Inter", sans-serif);
+  position: relative;
+    }
+    ._65-6226-5502 {
+      margin: 0 0 0 -12px;
+      color: var(--text-description-n-600, #4d545b);
+      text-align: left;
+      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
+      position: relative;
+      width: 163px;
+    }
+    .line-6 {
+      border-style: solid;
+      border-color: var(--copper-c-70, #e5e2dc);
+      border-width: 1px 0 0 0;
+      flex-shrink: 0;
+      width: 224px;
+      height: 0px;
+      position: relative;
+      transform-origin: 0 0;
+      transform: rotate(0deg) scale(1, 1);
+    }
+    .frame-3132 {
+      flex-shrink: 0;
+      width: 224px;
+      height: 232px;
+      position: relative;
+    }
+    .angle-up2 {
+      position: absolute;
+      left: 200px;
+      top: 0px;
+      overflow: visible;
+    }
+    .stamford-medical-dental-centre {
+      color: var(--primary-neutral-n-900, #212932);
+      text-align: left;
+      font: var(--body-normal-semibold, 600 16px/150% "Inter", sans-serif);
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 193.55px;
+    }
+    ._682-race-course-rd-01-325-singapore-210682 {
+      color: var(--text-description-n-600, #4d545b);
+      text-align: left;
+      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
+      position: absolute;
+      left: 0px;
+      top: 56px;
+      width: 224px;
+    }
+    .mon-fri2 {
+      color: var(--primary-neutral-n-900, #212932);
+      text-align: left;
+      font: var(--body-small-medium, 500 14px/160% "Inter", sans-serif);
+      position: relative;
+      width: 68px;
+    }
+    ._9-00-am-6-00-pm {
+      color: var(--text-description-n-600, #4d545b);
+      text-align: left;
+      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
+      position: relative;
+      width: 163px;
+    }
+    .frame-47812 {
+      display: flex;
+      flex-direction: row;
+      gap: 0px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      width: 231px;
+      position: relative;
+    }
+    .closed-on-weekends-public-holidays {
+      color: var(--primary-neutral-n-900, #212932);
+      text-align: left;
+      font: var(--body-small-medium, 500 14px/160% "Inter", sans-serif);
+      position: relative;
+      width: 231px;
+    }
+    .phone2 {
+      padding: 4px;
+      flex-shrink: 0;
+      position: relative;
+      overflow: visible;
+    }
+    ._65-6322-6350 {
+      margin: 0 0 0 -12px;
+      color: var(--text-description-n-600, #4d545b);
+      text-align: left;
+      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
+      position: relative;
+      width: 163px;
+    }
+    .frame-314 {
+      flex-shrink: 0;
+      width: 224px;
+      height: 232px;
+      position: relative;
+    }
+    .angle-up3 {
+      position: absolute;
+      left: 200px;
+      top: 0px;
+      overflow: visible;
+    }
+    .stamford-westlite-toh-guan {
+      color: var(--text-heading-n-900, #212932);
+      text-align: left;
+      font: var(--body-normal-semibold, 600 16px/150% "Inter", sans-serif);
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 193.55px;
+    }
+    ._28-toh-guan-road-east-westlite-dormitory-01-01-mezzanine-floor-singapore-608596 {
+      color: var(--text-description-n-600, #4d545b);
+      text-align: left;
+      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
+      position: absolute;
+      left: 0px;
+      top: 56px;
+      width: 224px;
+    }
+    .frame-47772 {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: absolute;
+      left: 0px;
+      top: 142px;
+    }
+    ._8-30-am-5-30-pm {
+      color: var(--text-description-n-600, #4d545b);
+      text-align: left;
+      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
+      position: relative;
+      width: 163px;
+    }
+    .frame-4782 {
+      display: flex;
+      flex-direction: row;
+      gap: 0px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .sat {
+      color: var(--primary-neutral-n-900, #212932);
+      text-align: left;
+      font: var(--body-small-medium, 500 14px/160% "Inter", sans-serif);
+      position: relative;
+      width: 31px;
+    }
+    ._8-30-am-12-30-pm {
+      color: var(--text-description-n-600, #4d545b);
+      text-align: left;
+      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
+      position: relative;
+      width: 163px;
+    }
+    .closed-on-sunday-public-holidays {
+      color: var(--primary-neutral-n-900, #212932);
+      text-align: left;
+      font: var(--body-small-medium, 500 14px/160% "Inter", sans-serif);
+      position: relative;
+      width: 231px;
+    }
+    .phone3 {
+      padding: 4px;
+      flex-shrink: 0;
+      position: relative;
+      overflow: visible;
+    }
+    .frame-47822 {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      left: 0px;
+      top: 972px;
+    }
+    .image-358 {
+      border-radius: 8px;
+      flex-shrink: 0;
+      width: 272px;
+      height: 335px;
+      position: relative;
+      box-shadow: var(
+        --shadow-raise-box-shadow,
+        0px 8px 32px 0px rgba(0, 0, 0, 0.1)
+      );
+    }
+    .services {
+      width: 272px;
+      height: 738px;
+      position: absolute;
+      left: calc(50% - 136px);
+      top: 633px;
+    }
+    /* .background2 {
+      position: absolute;
+      left: -24px;
+      top: 305px;
+      overflow: visible;
+    } */
+    .label2 {
+      color: var(--text-heading-n-900, #212932);
+      text-align: center;
+      font: var(--heading-h-6-reg, 400 12px/160% "Inter", sans-serif);
+      text-transform: uppercase;
+      position: relative;
+      align-self: stretch;
+    }
+    .title2 {
+      color: var(--text-heading-n-900, #212932);
+      text-align: center;
+      font: var(--heading-h-2-resp, 500 28px/140% "Inter", sans-serif);
+      position: relative;
+      align-self: stretch;
+    }
+    .frame-4844 {
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      height: 833px;
+      position: absolute;
+      left: calc(50% - 136px);
+      top: 147px;
+    }
+    .frame-47452 {
+      background: var(--primary-neutral-n-0, #ffffff);
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      height: 373px;
+      position: relative;
+      box-shadow: var(
+        --shadow-tight-box-shadow,
+        0px 1px 2px 1px rgba(0, 0, 0, 0.07)
+      );
+    }
+    .group-365 {
+      flex-shrink: 0;
+      width: 272px;
+      height: 373px;
+      position: static;
+    }
+    .frame-4843 {
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      height: 373px;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+    .image-362 {
+      border-radius: 8px 8px 0px 0px;
+      flex-shrink: 0;
+      width: 272px;
+      height: 184px;
+      position: relative;
+      transform-origin: 0 0;
+      transform: rotate(0deg) scale(-1, 1);
+    }
+    .list-mobile2 {
+      padding: 10px 24px 10px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .frame-47442 {
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .general-practice {
+      color: var(--text-heading-n-900, #212932);
+      text-align: left;
+      font: var(--heading-h-4-medium, 500 18px/140% "Inter", sans-serif);
+      position: relative;
+      width: 224px;
+    }
+    .explore-our-range-of-gp-services-such-as-gp-statutory-check-ups-and-vaccinations {
+      color: var(--text-body-n-700, #373e46);
+      text-align: left;
+      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
+      position: relative;
+      width: 224px;
+    }
+    .button {
+      padding: 9px 0px 9px 0px;
+      display: flex;
+      flex-direction: row;
+      gap: 4px;
+      align-items: center;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .button2 {
+      display: flex;
+      flex-direction: row;
+      gap: 4px;
+      align-items: center;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .text3 {
+      color: var(--primary-copper-c-500, #a78148);
+      text-align: left;
+      font: var(--button-label-small-semibold, 600 14px/100% "Inter", sans-serif);
+      position: relative;
+    }
+    .angle-right {
+      flex-shrink: 0;
+      position: relative;
+      overflow: visible;
+    }
+    .frame-4746 {
+      background: var(--primary-neutral-n-0, #ffffff);
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      height: 417px;
+      position: relative;
+      box-shadow: var(
+        --shadow-tight-box-shadow,
+        0px 1px 2px 1px rgba(0, 0, 0, 0.07)
+      );
+    }
+    .group-3652 {
+      flex-shrink: 0;
+      width: 272px;
+      height: 417px;
+      position: static;
+    }
+    .frame-48432 {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+    .image-40 {
+      border-radius: 8px;
+      flex-shrink: 0;
+      width: 272px;
+      height: 184px;
+      position: relative;
+    }
+    .frame-47443 {
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      height: 205px;
+      position: relative;
+    }
+    .dental-services {
+      color: var(--text-heading-n-900, #212932);
+      text-align: left;
+      font: var(--heading-h-4-medium, 500 18px/140% "Inter", sans-serif);
+      position: relative;
+      width: 224px;
+    }
+    .explore-our-range-of-dental-services-such-as-routine-dental-check-up-tooth-extraction-dental-fillings-scaling-and-polishing {
+      color: var(--text-body-n-700, #373e46);
+      text-align: left;
+      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
+      position: relative;
+      width: 224px;
+    }
+    .angle-right2 {
+      flex-shrink: 0;
+      position: relative;
+      overflow: visible;
+    }
+    .hero {
+      opacity: 0.8999999761581421;
+      width: 319px;
+      height: 454px;
+      position: absolute;
+      left: calc(50% - 160px);
+      top: 134px;
+    }
+    .background3 {
+      position: absolute;
+      left: 0px;
+      top: -126px;
+      overflow: visible;
+    }
+    .frame-4743 {
+      display: flex;
+      flex-direction: column;
+      gap: 38px;
+      align-items: center;
+      justify-content: flex-start;
+      width: 319px;
+      height: 325px;
+      position: absolute;
+      left: calc(50% - 159.5px);
+      top: 31px;
+    }
+    .frame-4742 {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: center;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .group-219 {
+      flex-shrink: 0;
+      width: 272px;
+      height: 117px;
+      position: static;
+    }
+    .removing-barriers-to-access-greater-healthcare-for-all {
+      color: var(--primary-neutral-n-0, #ffffff);
+  text-align: center;
+  font: var(--heading-h-2-resp, 500 28px/140% "Inter", sans-serif);
+  /* position: relative; */
+  justify-content: center;
+  width: 272px;
+  flex-shrink: 0;
+  /* width: 272px; */
+  height: 117px;
+  position: static;
+    }
+    .text4 {
+      color: var(--copper-c-100, #e5d9c8);
+      text-align: left;
+      font: var(--button-label-small-semibold, 600 14px/100% "Inter", sans-serif);
+      position: relative;
+    }
+    .angle-right3 {
+      flex-shrink: 0;
+      position: relative;
+      overflow: visible;
+    }
+    .image-360 {
+      border-radius: 8px;
+      flex-shrink: 0;
+      width: 272px;
+      height: 224px;
+      position: relative;
+    }
+    .subscribe {
+      background: var(--primary-neutral-n-0, #ffffff);
+      border-radius: 8px;
+      padding: 20px 16px 20px 16px;
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: absolute;
+      left: calc(50% - 137px);
+      top: 1655px;
+      box-shadow: var(
+        --shadow-raise-box-shadow,
+        0px 8px 32px 0px rgba(0, 0, 0, 0.1)
+      );
+    }
+    .frame-4762 {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      align-items: center;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .email {
+      flex-shrink: 0;
+      position: relative;
+      overflow: visible;
+    }
+    .frame-4761 {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .frame-4760 {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .don-t-miss-out-on-healthier-living {
+      color: var(--primary-neutral-n-900, #212932);
+      text-align: center;
+      font: var(--heading-h-3, 500 24px/140% "Inter", sans-serif);
+      position: relative;
+      width: 242px;
+    }
+    .subscribe-to-our-mailing-list-and-get-the-latest-news-on-events-and-health-packages-delivered-direct-to-your-mailbox {
+      color: var(--text-body-n-700, #373e46);
+      text-align: center;
+      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
+      position: relative;
+      width: 242px;
+    }
+    .email-address {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .frame-4759 {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      align-items: center;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .email-address2 {
+      color: var(--text-body-n-700, #373e46);
+      text-align: left;
+      font: var(--button-label-small-semibold, 600 14px/100% "Inter", sans-serif);
+      position: relative;
+    }
+    .rectangle-39 {
+      background: var(--primary-neutral-n-0, #ffffff);
+      border-radius: 4px;
+      border-style: solid;
+      border-color: var(--copper-c-70, #e5e2dc);
+      border-width: 1px;
+      flex-shrink: 0;
+      width: 242px;
+      height: 40px;
+      position: relative;
+    }
+    .button3 {
+      /* background: var(--primary-green-g-500, #00863f);
+      border-radius: 4px;
+      padding: 13px 16px 13px 16px;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      align-items: flex-start;
+      justify-content: center;
+      flex-shrink: 0;
+      width: 242px;
+      position: relative; */
+      display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+    }
+    .button4 {
+      color: var(--primary-neutral-n-0, #ffffff);
+      text-align: center;
+      font: var(--button-label-small-semibold, 600 14px/100% "Inter", sans-serif);
+      position: relative;
+    }
+    .footer-mobile {
+      width: 320px;
+      height: 427px;
+      position: absolute;
+      left:0px;
+      bottom: 0px;
+      display: block;
+    }
+    .footer-desktop{
+      display: none;
+    }
+    .background2 {
+      position: absolute;
+  left: 0px;
+  top: -126px;
+  overflow: visible;
+      
+    }
+    .group-219 {
+      flex-shrink: 0;
+      width: 272px;
+      height: 117px;
+      position: static;
+    }
+    
+      .footer {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: absolute;
+        left: 24px;
+        top: 76px;
+      }
+    
+    .navigation {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+      padding:6px
+    }
+    .clinical-services {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .frame-4764 {
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+      align-items: center;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      width: 272px;
+      position: relative;
+    }
+    .gp-services {
+      color: var(--primary-neutral-n-0, #ffffff);
+      text-align: left;
+      font: var(--body-large-reg, 400 18px/150% "Inter", sans-serif);
+      position: relative;
+      flex: 1;
+    }
+    .angle-right4 {
+      flex-shrink: 0;
+      position: relative;
+      overflow: visible;
+    }
+    .health-screening {
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+      align-items: center;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      width: 272px;
+      position: relative;
+    }
+    .dental-services2 {
+      color: var(--primary-neutral-n-0, #ffffff);
+      text-align: left;
+      font: var(--body-large-reg, 400 18px/150% "Inter", sans-serif);
+      position: relative;
+      flex: 1;
+    }
+    .angle-right5 {
+      flex-shrink: 0;
+      position: relative;
+      overflow: visible;
+    }
+    .about-us {
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+      align-items: center;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      width: 272px;
+      position: relative;
+    }
+    .about-us2 {
+      color: var(--primary-neutral-n-0, #ffffff);
+      text-align: left;
+      font: var(--body-large-reg, 400 18px/150% "Inter", sans-serif);
+      position: relative;
+      flex: 1;
+    }
+    .angle-right6 {
+      flex-shrink: 0;
+      position: relative;
+      overflow: visible;
+    }
+    .corporate {
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+      align-items: center;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      width: 272px;
+      position: relative;
+    }
+    .contact-us {
+      color: var(--primary-neutral-n-0, #ffffff);
+      text-align: left;
+      font: var(--body-large-reg, 400 18px/150% "Inter", sans-serif);
+      position: relative;
+      flex: 1;
+    }
+    .angle-right7 {
+      flex-shrink: 0;
+      position: relative;
+      overflow: visible;
+    }
+    .info {
+      flex-shrink: 0;
+      width: 272px;
+      height: 89px;
+      position: relative;
+    }
+    .terms-of-service {
+      color: var(--green-g-50, #e9fbf2);
+      text-align: left;
+      font: var(--navmenu-secondary-reg-resp, 400 13px/160% "Inter", sans-serif);
+      position: absolute;
+      left: 7px;
+      top: 68px;
+    }
+    .social-icons {
+      display: flex;
+      flex-direction: row;
+      gap: 16px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: absolute;
+      left: 7px;
+      top: 24px;
+    }
+    .group-115 {
+      flex-shrink: 0;
+      width: 24px;
+      height: 24px;
+      position: static;
+    }
+    .ellipse-13 {
+      background: var(--primary-neutral-n-0, #ffffff);
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+    .social {
+      position: absolute;
+      left: 2px;
+      top: 2px;
+      overflow: visible;
+    }
+    .group-114 {
+      flex-shrink: 0;
+      width: 24px;
+      height: 24px;
+      position: static;
+    }
+    .ellipse-14 {
+      background: var(--primary-neutral-n-0, #ffffff);
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      left: 40px;
+      top: 0px;
+    }
+    .social2 {
+      position: absolute;
+      left: 42px;
+      top: 2px;
+      overflow: visible;
+    }
+    .group-113 {
+      flex-shrink: 0;
+      width: 24px;
+      height: 24px;
+      position: static;
+    }
+    .ellipse-15 {
+      background: var(--primary-neutral-n-0, #ffffff);
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      left: 80px;
+      top: 0px;
+    }
+    .social3 {
+      position: absolute;
+      left: 82px;
+      top: 2px;
+      overflow: visible;
+    }
+    .privacy-policy {
+      color: var(--green-g-50, #e9fbf2);
+      text-align: left;
+      font: var(--navmenu-secondary-reg-resp, 400 13px/160% "Inter", sans-serif);
+      position: absolute;
+      left: 127px;
+      top: 68px;
+    }
+    .line-13 {
+      border-style: solid;
+      border-color: var(--green-g-800, #004320);
+      border-width: 1px 0 0 0;
+      width: 272px;
+      height: 0px;
+      position: absolute;
+      left: 0px;
+      top: 8px;
+    }
+    .language {
+      border-radius: 4px;
+      border-style: solid;
+      border-color: var(--neutral-n-300, #909498);
+      border-width: 1px;
+      padding: 6px 4px 6px 4px;
+      display: flex;
+      flex-direction: row;
+      gap: 2px;
+      align-items: center;
+      justify-content: flex-start;
+      position: absolute;
+      left: 24px;
+      top: 21.28px;
+      overflow: hidden;
+    }
+    .globe-outline {
+      padding: 4px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+      overflow: visible;
+    }
+    .frame-65 {
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+      align-items: center;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .frame-63 {
+      display: flex;
+      flex-direction: row;
+      gap: 4px;
+      align-items: center;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .malaysia {
+      color: var(--primary-neutral-n-0, #ffffff);
+      text-align: left;
+      font: var(--button-label-micro, 600 10px/100% "Inter", sans-serif);
+      position: relative;
+    }
+    .line-132 {
+      border-style: solid;
+      border-color: var(--neutral-n-300, #909498);
+      border-width: 1px 0 0 0;
+      flex-shrink: 0;
+      width: 15px;
+      height: 0px;
+      position: relative;
+      transform-origin: 0 0;
+      transform: rotate(90deg) scale(1, 1);
+    }
+    .frame-64 {
+      display: flex;
+      flex-direction: row;
+      gap: 2px;
+      align-items: center;
+      justify-content: flex-end;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .bm {
+      color: var(--primary-neutral-n-0, #ffffff);
+      text-align: left;
+      font: var(--button-label-micro, 600 10px/100% "Inter", sans-serif);
+      position: relative;
+    }
+    .angle-down {
+      flex-shrink: 0;
+      position: relative;
+      overflow: visible;
+    }
+    .header-desktop{
+      display: none;
+    }
+    .mobile-header {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: absolute;
+      left: calc(50% - 160px);
+      top: 0px;
+    }
+    .status-bar-i-os-black {
+      background: var(--primary-neutral-n-0, #ffffff);
+      flex-shrink: 0;
+      width: 320px;
+      height: 20px;
+      position: relative;
+    }
+    .pin-right {
+      width: 72px;
+      height: 15px;
+      position: absolute;
+      right: 5px;
+      top: 3px;
+      overflow: hidden;
+    }
+    .battery {
+      position: absolute;
+      inset: 0;
+    }
+    .battery2 {
+      position: absolute;
+      left: 45px;
+      top: 1.5px;
+      overflow: visible;
+    }
+    ._100 {
+      position: absolute;
+      left: 11.93px;
+      top: 2.85px;
+      overflow: visible;
+    }
+    .bluetooth {
+      position: absolute;
+      left: 0.5px;
+      top: 2px;
+      overflow: visible;
+    }
+    ._9-41-am {
+      position: absolute;
+      left: 135.98px;
+      top: 5.83px;
+      overflow: visible;
+    }
+    .group {
+      position: absolute;
+      left: 6px;
+      top: 3px;
+      overflow: visible;
+    }
+    .notification-bar {
+      background: var(--trafficlight-warning, #f3cd68);
+      padding: 8px 15px 8px 15px;
+      flex-shrink: 0;
+      width: 320px;
+      height: 54px;
+      position: relative;
+    }
+    .info2 {
+      position: absolute;
+      left: 8px;
+      top: 17px;
+      overflow: visible;
+    }
+    .emergency-very-important-message-goes-here {
+      color: var(--text-body-n-700, #373e46);
+      text-align: left;
+      font: var(--body-mini-reg, 400 12px/160% "Inter", sans-serif);
+      position: absolute;
+      left: 32px;
+      top: 8px;
+      width: 280px;
+    }
+    .button5 {
+      display: flex;
+      flex-direction: row;
+      gap: 0px;
+      align-items: center;
+      justify-content: flex-start;
+      position: absolute;
+      left: 32px;
+      top: 30px;
+    }
+    .link {
+      color: var(--text-body-n-700, #373e46);
+      text-align: left;
+      font: var(--button-label-mini-semibold, 600 12px/100% "Inter", sans-serif);
+      position: relative;
+    }
+    .angle-right8 {
+      flex-shrink: 0;
+      position: relative;
+      overflow: visible;
+    }
+    .navbar-mobile-minified-bar {
+      background: #ffffff;
+      flex-shrink: 0;
+      width: 320px;
+      height: 60px;
+      position: relative;
+      box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.1);
+    }
+    .frame-252 {
+      width: 28px;
+      height: 28px;
+      position: absolute;
+      left: 274px;
+      top: 16px;
+    }
+    .menu {
+      position: absolute;
+      left: calc(50% - 10px);
+      top: calc(50% - 10px);
+      overflow: visible;
+    }
+    .stamford-medical-logo-2 {
+      width: 103px;
+      height: 66px;
+      position: absolute;
+      left: 24px;
+      top: -6px;
+    }
+    .button6-mobile {
+      background: var(--primary-green-g-500, #00863f);
+      border-radius: 4px;
+      padding: 4px;
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      right: 65px;
+      top: 25px;
+    }
+    .group-128 {
+      flex-shrink: 0;
+      width: 12px;
+      height: 13px;
+      position: static;
+    }
+    .phone4 {
+      position: absolute;
+      left: 7px;
+      top: 4px;
+      overflow: visible;
+    }
+    .call-us1 {
+      color: var(--neutral-n-0, #ffffff);
+      text-align: center;
+      font: var(--button-label-mini-semibold, 600 12px/100% "Inter", sans-serif);
+      position: relative;
+    }
+    .navbar-mobile-menu-expand {
+      background: #ffffff;
+      width: 320px;
+      height: 60px;
+      position: relative;
+      box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.1);
+    }
+    .navbar-mobile-menu-expand-sidebar {
+      background: #ffffff;
+  width: 320px;
+  height: 60px;
+  position: absolute;
+  left: calc(50% - 160px);
+  top: 20px;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.1);
+    }
+    .frame-252 {
+      width: 28px;
+      height: 28px;
+      position: absolute;
+      left: 272px;
+      top: 16px;
+    }
+    .icon {
+      position: absolute;
+      left: 6px;
+      top: 6px;
+      overflow: visible;
+    }
+    .button {
+      background: var(--primary-neutral-n-0, #ffffff);
+      border-radius: 4px;
+      padding: 12px;
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+      align-items: center;
+      justify-content: center;
+      width: 31px;
+      height: 31px;
+      position: absolute;
+      left: 0px;
+      top: -2px;
+    }
+    .icon2 {
+      flex-shrink: 0;
+      position: relative;
+      overflow: visible;
+    }
+    .nav-menu,
+.nav-menu * {
+  box-sizing: border-box;
+}
+    .nav-menu {
+      background: #ffffff;
+      width: 320px;
+      height: 568px;
+      position: relative;
+      overflow: hidden;
+    }
+    .frame-4841 {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: absolute;
+      left: 0px;
+      top: 99px;
+    }
+    .mobile-nav-parent {
+      padding: 16px 24px 16px 24px;
+      display: flex;
+      flex-direction: row;
+      gap: 16px;
+      align-items: center;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      width: 320px;
+      position: relative;
+    }
+    .frame-4716 {
+      display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+    }
+    .frame-4743 {
+      display: flex;
+      flex-direction: column;
+      gap: 38px;
+      align-items: center;
+      justify-content: flex-start;
+      width: 319px;
+      height: 325px;
+      position: absolute;
+      left: calc(50% - 159.5px);
+      top: 31px;
+    }
+    .background5 {
+      background: var(--green-g-900, #003218);
+      width: 320px;
+      height: 427px;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+
      }
+
+/* @media (min-width:1025px) { 
+  
+     } */
 
 
 
