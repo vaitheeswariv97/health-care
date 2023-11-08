@@ -21,10 +21,14 @@
       top: 500px;
     }
     .group-366 {
+      display: block;
       position: absolute;
       left: -3px;
       top: 414px;
       overflow: visible;
+    }
+    .group-366-mobile{
+      display: none
     }
     .footer-mobile{
       display: none;
@@ -60,6 +64,16 @@
       top: 276px;
     }
     .card {
+      background: var(--primary-neutral-n-0, #ffffff);
+      border-radius: 8px;
+      width: 970px;
+      height: 456px;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.1);
+    }
+    .card1 {
       background: var(--primary-neutral-n-0, #ffffff);
       border-radius: 8px;
       width: 970px;
@@ -1086,7 +1100,7 @@
       top: -44px;
       overflow: visible;
     }
-    .label-title-desc-mobile {
+    .label-title-desc {
       display: flex;
       flex-direction: column;
       gap: 8px;
@@ -1098,19 +1112,19 @@
       top: 0px;
     }
     .label {
-      color: var(--primary-neutral-n-0, #ffffff);
-      text-align: center;
-      font: var(--heading-h-6-reg, 400 12px/160% "Inter", sans-serif);
-      text-transform: uppercase;
-      position: relative;
-      align-self: stretch;
+      color: var(--text-heading-n-900, #212932);
+  text-align: center;
+  font: var(--heading-h-6-reg, 400 12px/160% "Inter", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
     }
     .title {
-      color: var(--primary-neutral-n-0, #ffffff);
-      text-align: center;
-      font: var(--heading-h-2-resp, 500 28px/140% "Inter", sans-serif);
-      position: relative;
-      align-self: stretch;
+      color: var(--text-heading-n-900, #212932);
+  text-align: center;
+  font: var(--heading-h-2-resp, 500 28px/140% "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
     }
     .frame-4857 {
       border-radius: 8px;
@@ -1290,10 +1304,11 @@
     .text {
       color: var(--primary-neutral-n-900, #212932);
       text-align: left;
-      font: 600 16px/160% "Inter", sans-serif;
+      font: 600 12px/160% "Inter", sans-serif;
       position: relative;
-      width: 68px;
-    }
+      width: 65px;
+      word-wrap: break-word;
+  }
     .frame-4779 {
       display: flex;
       flex-direction: row;
@@ -1594,7 +1609,9 @@
       position: relative;
       transform-origin: 0 0;
       transform: rotate(0deg) scale(-1, 1);
-    }
+      left: 177px;
+      top: -129px;
+  }
     .list-mobile2 {
       padding: 10px 24px 10px 24px;
       display: flex;
@@ -1614,13 +1631,14 @@
       flex-shrink: 0;
       position: relative;
     }
-    .general-practice {
-      color: var(--text-heading-n-900, #212932);
-      text-align: left;
-      font: var(--heading-h-4-medium, 500 18px/140% "Inter", sans-serif);
+    .general-practice-services {
+      color: var(--primary-neutral-n-900, #212932);
+      text-align: center;
+      font: var(--heading-h-2-semibold, 600 24px/140% "Inter", sans-serif);
       position: relative;
-      width: 224px;
-    }
+      width: 280px;
+      left: -31px;
+  }
     .explore-our-range-of-gp-services-such-as-gp-statutory-check-ups-and-vaccinations {
       color: var(--text-body-n-700, #373e46);
       text-align: left;
@@ -1628,16 +1646,22 @@
       position: relative;
       width: 224px;
     }
-    .button {
-      padding: 9px 0px 9px 0px;
+    /* .button {
+      background: var(--primary-neutral-n-0, #ffffff);
+      border-radius: 4px;
+      padding: 12px;
       display: flex;
       flex-direction: row;
-      gap: 4px;
-      align-items: center;
-      justify-content: flex-start;
       flex-shrink: 0;
+      gap: 8px;
+      align-items: center;
+      justify-content: center;
+      width: 123px;
+      height: 31px;
       position: relative;
-    }
+      left: -77px;
+      top: 233px;
+  } */
     .button2 {
       display: flex;
       flex-direction: row;
@@ -1796,25 +1820,26 @@
       width: 272px;
       height: 224px;
       position: relative;
+      left: 36px;
+      top: 286px;
     }
     .subscribe {
       background: var(--primary-neutral-n-0, #ffffff);
-      border-radius: 8px;
-      padding: 20px 16px 20px 16px;
-      display: flex;
-      flex-direction: row;
-      gap: 8px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      position: absolute;
-      left: calc(50% - 137px);
-      top: 1655px;
-      box-shadow: var(
-        --shadow-raise-box-shadow,
-        0px 8px 32px 0px rgba(0, 0, 0, 0.1)
-      );
-    }
-    .frame-4762 {
+    border-radius: 8px;
+    padding: 20px 16px 20px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: calc(50% - 137px);
+    top: 1655px;
+    width: 271px;
+    height: 421px;
+    box-shadow: var(--shadow-raise-box-shadow, 0px 8px 32px 0px rgba(0, 0, 0, 0.1) );
+}
+    .frame-4727 {
       display: flex;
       flex-direction: column;
       gap: 8px;
@@ -1827,17 +1852,11 @@
       flex-shrink: 0;
       position: relative;
       overflow: visible;
-    }
-    .frame-4761 {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-    }
-    .frame-4760 {
+      top: -99px;
+      left: 84px;
+  }
+    
+    .frame-4727 {
       display: flex;
       flex-direction: column;
       gap: 8px;
@@ -1855,10 +1874,10 @@
     }
     .subscribe-to-our-mailing-list-and-get-the-latest-news-on-events-and-health-packages-delivered-direct-to-your-mailbox {
       color: var(--text-body-n-700, #373e46);
-      text-align: center;
-      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
-      position: relative;
-      width: 242px;
+    text-align: center;
+    font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
+    position: relative;
+    width: 199px;
     }
     .email-address {
       display: flex;
@@ -1869,7 +1888,7 @@
       flex-shrink: 0;
       position: relative;
     }
-    .frame-4759 {
+    .frame-4728 {
       display: flex;
       flex-direction: column;
       gap: 8px;
@@ -1894,7 +1913,7 @@
       width: 242px;
       height: 40px;
       position: relative;
-    }
+  }
     .button3 {
       /* background: var(--primary-green-g-500, #00863f);
       border-radius: 4px;
@@ -1915,12 +1934,20 @@
   flex-shrink: 0;
   position: relative;
     }
-    .button4 {
-      color: var(--primary-neutral-n-0, #ffffff);
-      text-align: center;
-      font: var(--button-label-small-semibold, 600 14px/100% "Inter", sans-serif);
-      position: relative;
-    }
+    
+      .button4 {
+        background: var(--primary-green-g-500, #00863f);
+    border-radius: 4px;
+    padding: 13px 16px 13px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    top: 8px;
+    width: 233px;
+      }
     .footer-mobile {
       width: 320px;
       height: 427px;
@@ -2343,9 +2370,9 @@
       align-items: center;
       justify-content: flex-start;
       position: absolute;
-      left: 32px;
-      top: 30px;
-    }
+      left: 79px;
+      top: 6px;
+  }
     .link {
       color: var(--text-body-n-700, #373e46);
       text-align: left;
@@ -2451,14 +2478,15 @@
       padding: 12px;
       display: flex;
       flex-direction: row;
+      flex-shrink: 0;
       gap: 8px;
       align-items: center;
       justify-content: center;
-      width: 31px;
+      width: 123px;
       height: 31px;
-      position: absolute;
-      left: 0px;
-      top: -2px;
+      position: relative;
+      left: -77px;
+      top: 48px;
     }
     .icon2 {
       flex-shrink: 0;
@@ -2498,13 +2526,23 @@
       position: relative;
     }
     .frame-4716 {
-      display: flex;
+      /* display: flex;
   flex-direction: column;
   gap: 16px;
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
-  position: relative;
+  position: relative; */
+  display: flex;
+      flex-direction: column;
+      gap: 38px;
+      align-items: center;
+      justify-content: flex-start;
+      width: 319px;
+      height: 325px;
+      position: absolute;
+      left: calc(50% - 159.5px);
+      top: 31px;
     }
     .frame-4743 {
       display: flex;
@@ -2526,8 +2564,163 @@
       left: 0px;
       top: 0px;
     }
+    .group-366-mobile{
+      display: block;
+      position: absolute;
+  left: -24px;
+  top: 305px;
+  overflow: visible;}
+  .group-366{display: none;}
+
+  .quote2{width: 970px;
+    height: 456px;
+    position: absolute;
+    left: 977px;
+    top: 583px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(-1, 1);
+}
+
+  .card {
+    background: var(--primary-neutral-n-0, #ffffff);
+    border-radius: 8px;
+    width: 271px;
+    height: 267px;
+    position: absolute;
+    left: -95px;
+    top: 0px;
+    box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.1);
+}
+
+.frame-4770 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 300px;
+  position: absolute;
+  left: 36px;
+  top: calc(50% - 104.5px);
+}
+
+.group-26 {
+  flex-shrink: 0;
+  width: 313px;
+  height: 130px;
+  position: static;
+}
+.frame-4746 {
+  background: var(--primary-neutral-n-0, #ffffff);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 143px;
+  left: -92px;
+  position: relative;
+  width: 200px;
+  top: -45px;
+}
+.card1 {
+  background: var(--primary-neutral-n-0, #ffffff);
+  border-radius: 8px;
+  width: 373px;
+  height: 267px;
+  position: absolute;
+  left: -262px;
+  top: -263px;
+  box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.1);
+}
+
+.frame-47702 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 300px;
+  position: absolute;
+  right: -442px;
+  top: -100px;
+}
+
+.group-262 {
+flex-shrink: 0;
+width: 313px;
+height: 130px;
+position: static;
+}
+.frame-47262 {
+  background: var(--primary-neutral-n-0, #ffffff);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 178px;
+  left: -632px;
+  position: relative;
+  width: 267px;
+  top: 291px;
+  padding: 10px;
+}
+.frame-4731 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-4730 {
+  display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    left: -58px;
+    top: 89px;
+}
+.frame-4727 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.don-t-miss-out-on-healthier-living {
+  color: var(--primary-neutral-n-900, #212932);
+  text-align: center;
+  font: var(--heading-h-3, 500 24px/140% "Inter", sans-serif);
+  position: relative;
+  width: 197px;
+}
+.frame-4729 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  left: -30px;
+}
 
      }
+     
+     
+        
 
 /* @media (min-width:1025px) { 
   

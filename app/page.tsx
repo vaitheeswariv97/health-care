@@ -27,7 +27,7 @@ export default async function Home(){
   <div className="services">
     <svg
       className="group-366"
-      width="100%"
+      width="1171"
       height="1030"
       viewBox="0 0 1171 1030"
       fill="none"
@@ -39,6 +39,20 @@ export default async function Home(){
       />
       <path d="M1171 99H1L1171 0L1171 99Z" fill="#1E4372" />
     </svg>
+    <svg
+      className="group-366-mobile"
+      width="320"
+      height="1091"
+      viewBox="0 0 320 1091"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M5.54309e-05 27.9966L5.80617e-05 27.0034L11.3525 27.0034L320 0L320 27.0035L320 27.9967L320 1091H0L5.54309e-05 27.9966Z"
+        fill="#1E4372"
+      />
+       <path d="M1171 99H1L1171 0L1171 99Z" fill="#1E4372" />
+    </svg>
 
     <div className="label-title-desc">
       <div className="label">CLINICAL SERVICES </div>
@@ -48,7 +62,7 @@ export default async function Home(){
       <div className="card"></div>
       <div className="frame-4770">
         <div className="group-26">
-          <div className="frame-4726">
+          <div className="frame-4746">
             <div className="general-practice-services">
             {data[1]?.title}{" "}{" "}
             </div>
@@ -77,7 +91,7 @@ export default async function Home(){
       </div>
     </div>
     <div className="quote2" id='dt_services'>
-      <div className="card"></div>
+      <div className="card1"></div>
       <div className="frame-47702">
         <div className="group-262">
           <div className="frame-47262">
@@ -123,8 +137,8 @@ export default async function Home(){
         fill="#004320"
       />
     </svg>
-    <div className="frame-4743">
     
+    <div className="frame-4716">
       <div className="removing-barriers-to-access-greater-healthcare-for-all">
         Removing Barriers to access, <br />
         greater healthcare for all{" "}
@@ -145,7 +159,7 @@ export default async function Home(){
           />
         </svg>
       </div>
-      </div>
+    </div>
     <img className="image-360" src="images/image-360.png" alt="image-360" />
     
   </div>
