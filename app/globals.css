@@ -668,11 +668,13 @@
       top: 70px;
     }
     .background3 {
+      display: block;
       position: absolute;
       left: -505px;
       top: -53px;
       overflow: visible;
     }
+    .background4{display: none;}
     .frame-4741 {
       display: flex;
       flex-direction: row;
@@ -859,6 +861,7 @@
       font: 400 16px/160% "Inter", sans-serif;
       position: relative;
       width: 163px;
+      top:-10px;
     }
     .stamford-westlite-toh-guan {
       color: var(--text-heading-n-900, #212932);
@@ -1076,7 +1079,7 @@
       inset: 0;
     }
 
-@media screen and (min-width:320px) and (max-width:600px)  { .homepage,
+@media screen and (min-width:320px) and (max-width:420px)  { .homepage,
     .homepage * {
       box-sizing: border-box;
     }
@@ -1092,7 +1095,7 @@
       height: 1084px;
       position: absolute;
       left: 24px;
-      top: 2155px;
+      top: 191px;
     }
     .background {
       position: absolute;
@@ -1213,27 +1216,27 @@
     }
     .angle-up {
       position: absolute;
-      left: 200px;
+      left: 189px;
       top: 0px;
       overflow: visible;
     }
     .stamford-medical-group-main-branch {
       color: var(--primary-neutral-n-900, #212932);
-      text-align: left;
-      font: 600 16px/150% "Inter", sans-serif;
-      position: absolute;
-      left: 0px;
-      top: 0px;
-      width: 193.55px;
+    text-align: left;
+    font: 600 16px/150% "Inter", sans-serif;
+    position: absolute;
+    left: -4px;
+    top: 0px;
+    width: 186.55px;
     }
     ._681-race-course-rd-01-303-singapore-210681 {
       color: var(--text-description-n-600, #4d545b);
-      text-align: left;
-      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
-      position: absolute;
-      left: 0px;
-      top: 56px;
-      width: 224px;
+    text-align: left;
+    font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
+    position: absolute;
+    left: 20px;
+    top: 88px;
+    width: 150px;
     }
     .frame-4777 {
       display: flex;
@@ -1335,7 +1338,7 @@
       text-align: left;
       font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
       position: relative;
-      width: 163px;
+      width: 109px;
     }
     .line-6 {
       border-style: solid;
@@ -1446,12 +1449,12 @@
     }
     ._28-toh-guan-road-east-westlite-dormitory-01-01-mezzanine-floor-singapore-608596 {
       color: var(--text-description-n-600, #4d545b);
-      text-align: left;
-      font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
-      position: absolute;
-      left: 0px;
-      top: 56px;
-      width: 224px;
+    text-align: left;
+    font: var(--body-small-reg, 400 14px/160% "Inter", sans-serif);
+    position: absolute;
+    left: 24px;
+    top: 76px;
+    width: 224px;
     }
     .frame-47772 {
       display: flex;
@@ -1505,6 +1508,7 @@
       flex-shrink: 0;
       position: relative;
       overflow: visible;
+      top: -10px;
     }
     .frame-47822 {
       display: flex;
@@ -1516,17 +1520,18 @@
       left: 0px;
       top: 972px;
     }
+    
     .image-358 {
       border-radius: 8px;
       flex-shrink: 0;
       width: 272px;
-      height: 335px;
+      height: 312px;
       position: relative;
-      box-shadow: var(
-        --shadow-raise-box-shadow,
-        0px 8px 32px 0px rgba(0, 0, 0, 0.1)
-      );
-    }
+      top: 568px;
+      left: -97px;
+      box-shadow: var(--shadow-raise-box-shadow, 0px 8px 32px 0px rgba(0, 0, 0, 0.1) );
+  }
+    
     .services {
       width: 272px;
       height: 738px;
@@ -1541,7 +1546,7 @@
       overflow: visible;
     } */
     .label2 {
-      color: var(--text-heading-n-900, #212932);
+      color: var(--text-heading-n-0, #ffffff);
       text-align: center;
       font: var(--heading-h-6-reg, 400 12px/160% "Inter", sans-serif);
       text-transform: uppercase;
@@ -1549,7 +1554,7 @@
       align-self: stretch;
     }
     .title2 {
-      color: var(--text-heading-n-900, #212932);
+      color: var(--text-heading-n-0, #ffffff);
       text-align: center;
       font: var(--heading-h-2-resp, 500 28px/140% "Inter", sans-serif);
       position: relative;
@@ -1758,12 +1763,14 @@
       left: calc(50% - 160px);
       top: 134px;
     }
-    .background3 {
-      position: absolute;
-      left: 0px;
-      top: -126px;
-      overflow: visible;
+    .background4 {
+      display: block;
+    position: absolute;
+    left: -28px;
+    top: -101px;
+    overflow: visible;
     }
+    .background3{display: none;}
     .frame-4743 {
       display: flex;
       flex-direction: column;
@@ -2656,19 +2663,19 @@ position: static;
 }
 .frame-47262 {
   background: var(--primary-neutral-n-0, #ffffff);
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  height: 178px;
-  left: -632px;
-  position: relative;
-  width: 267px;
-  top: 291px;
-  padding: 10px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 178px;
+    left: -634px;
+    position: relative;
+    width: 270px;
+    top: 281px;
+    padding: 10px;
 }
 .frame-4731 {
   display: flex;
@@ -2715,6 +2722,118 @@ position: static;
   flex-shrink: 0;
   position: relative;
   left: -30px;
+}
+
+.frame-4859 {
+  background: #ffffff;
+  width: 320px;
+  height: 1337px;
+  position: absolute;
+  left: 8px;
+  top: 2079px;
+  overflow: hidden;
+}
+.frame-4741 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  width: 327px;
+  position: absolute;
+  left: -70px;
+  top: -71px;
+}
+
+.label-title-desc2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 225px;
+  position: relative;
+  left: 188px;
+}
+
+.content {
+  background: var(--primary-neutral-n-0, #ffffff);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 238px;
+    height: 800px;
+    position: relative;
+    left: 194px;
+    box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.1);
+}
+.list-hover {
+  background: var(--primary-neutral-n-0, #ffffff);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: var(--copper-c-10, #fbf9f6);
+    border-width: 1px;
+    padding: 24px 32px 24px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 250px;
+    height: 240px;
+    position: relative;
+    box-shadow: var(--shadow-raise-box-shadow, 0px 8px 32px 0px rgba(0, 0, 0, 0.1) );
+}
+
+.frame-4738 {
+  padding: 10px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 177px;
+    top: 111px;
+    left: -15px;
+    position: relative;
+}
+
+.closed-on-weekends-and-public-holidays {
+  color: var(--primary-neutral-n-900, #212932);
+  text-align: left;
+  font: var(--body-normal-medium, 500 14px/150% "Inter", sans-serif);
+  position: relative;
+  width: 250px;
+  top: 10px;
+  left: 10px;
+}
+
+.frame-4861 {
+  padding: 10px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 373px;
+  position: relative;
+  top: 117px;
+}
+
+.closed-on-sunday-and-public-holidays {
+  color: var(--primary-neutral-n-900, #212932);
+  text-align: left;
+  font: var(--body-normal-medium, 500 16px/150% "Inter", sans-serif);
+  position: relative;
+  width: 250px;
 }
 
      }

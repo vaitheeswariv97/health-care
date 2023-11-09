@@ -493,6 +493,21 @@ export default async function Home(){
           fill="#851A39"
         />
       </svg>
+      <svg
+          className="background4"
+          width="320"
+          height="1229"
+          viewBox="0 0 320 1229"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M320 0H0V1195.41H320V0ZM320 1195.42H1.90735e-05L0 1229L320 1195.42Z"
+            fill="#851A39"
+          />
+        </svg>
 
       <div className="frame-4741">
         <div className="frame-4740">
@@ -549,11 +564,11 @@ export default async function Home(){
             </div>
             <div className="list-hover">
               <div className="frame-4860">
-                <div className="stamford-medical-dental-centre">
+                <div className="stamford-medical-group-main-branch">
                   Stamford Medical &amp; Dental Centre{" "}
                 </div>
                 <svg
-                  className="angle-up2"
+                  className="angle-up"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -642,7 +657,9 @@ export default async function Home(){
             </div>
           </div>
         </div>
-        <img className="image-358" src="images/image-358.png" />
+        <iframe className="image-358" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.827166314232!2d103.84038157477855!3d1.2771462618056253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da196ce7c23c4f%3A0x159c332740914c4e!2sStanford%20Medical%20Group%20Pte%20Ltd!5e0!3m2!1sen!2sin!4v1699440295905!5m2!1sen!2sin" 
+        width="600" height="450" ></iframe>
+        {/* <img className="image-358" src="images/image-358.png" /> */}
       </div>
     </div>
   </div>
